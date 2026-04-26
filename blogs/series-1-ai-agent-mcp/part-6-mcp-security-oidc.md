@@ -13,28 +13,31 @@ This part adds JWT Bearer authentication using OpenID Connect (OIDC). The patter
 
 - The MCP server becomes a **resource server** — it validates JWT tokens on every request.
 - The agent (or any client) becomes an **OAuth2 client** — it acquires a token via the client credentials flow before connecting.
-- An external **OIDC provider** issues and validates tokens (Okta, Azure Entra, Duende IdentityServer, or any standards-compliant provider).
+- An external **OIDC provider** issues and validates tokens.
 
-The surface area of change is small: four lines in `Program.cs`, two lines in `appsettings.json`, and one line in the agent.
+The working example uses **Duende IdentityServer** running in Docker — a self-hosted .NET identity server you control completely. Because the code speaks standard OIDC, swapping to a cloud provider (Okta, Azure Entra ID, Google) requires only two config values. That swap is covered at the end of this part.
+
+The surface area of change is small: four lines in `Program.cs`, two values in `appsettings.Development.json`, and token acquisition in the agent.
 
 ---
 
 ## Architecture
 
 ```
-┌─────────────────────────┐
-│     OIDC Provider        │
-│  (Okta / Entra / Duende) │
-│                         │
-│  Token endpoint          │
-│  JWKS endpoint           │
-└────────┬────────────────┘
-         │  issues JWT (client credentials)
-         ▼
+┌─────────────────────────────┐
+│   Duende IdentityServer      │
+│   (Docker container)         │
+│                             │
+│   /connect/token             │
+│   /.well-known/openid-config │
+│   /connect/keys (JWKS)       │
+└────────────┬────────────────┘
+             │  issues JWT (client credentials)
+             ▼
 ┌─────────────────────────┐         ┌─────────────────────────┐
 │      HrMcp.Agent         │         │    HrMcp.McpServer       │
 │                         │         │                         │
-│  1. POST /token          │  Bearer │  2. validate JWT        │
+│  1. POST /connect/token  │  Bearer │  2. validate JWT        │
 │     client_id + secret  │────────►│     (Authority / JWKS)  │
 │                         │         │  3. authorize endpoint  │
 │  4. call MCP tools       │◄────────│  4. return tools/data   │
@@ -47,14 +50,13 @@ The OIDC provider is the only component that changes between deployments. The se
 
 ## Provider Options
 
-Any standards-compliant OIDC provider works. Common choices:
+Any standards-compliant OIDC provider works. This part uses Duende IdentityServer because it runs locally in Docker with no external accounts or network dependencies.
 
+- **Duende IdentityServer** — open-source .NET identity server; runs in Docker; full control over clients, scopes, and users; free community license for development; production license required for revenue-generating use. This is the provider used in this walkthrough.
 - **Okta** — free developer account supports up to 1,000 monthly active users; well-documented client credentials setup; hosted, no infrastructure required.
 - **Azure Entra ID (formerly Azure AD)** — use App Registrations with a client secret; integrates with MSAL and Azure RBAC; free tier available in Azure portal.
-- **Duende IdentityServer** — open-source .NET library; run your own identity server locally or in a container; free community license for development; production license required for revenue-generating use.
+- **Google Cloud Identity Platform** — OAuth2 service accounts support client credentials; configure via Google Cloud Console.
 - **DotnetFastMCP** — community MCP package (`tekspry/DotnetFastMCP`) with OAuth support built in as an attribute. If you are starting a new project and want OAuth handled at the framework level rather than as ASP.NET Core middleware, this is worth evaluating.
-
-The steps below use Okta as the example. The `Authority` and `Audience` values are the only provider-specific configuration.
 
 ---
 
@@ -70,7 +72,7 @@ dotnet add src/HrMcp.McpServer package Microsoft.AspNetCore.Authentication.JwtBe
 
 ## Step 2 — Update `appsettings.json`
 
-Add the `Oidc` section with placeholder values. Real values are stored in `appsettings.Development.json` (gitignored) or environment variables — never committed:
+Add the `Oidc` section with placeholder values. Real values go in `appsettings.Development.json` (gitignored) or environment variables — never committed:
 
 ```json
 {
@@ -79,8 +81,8 @@ Add the `Oidc` section with placeholder values. Real values are stored in `appse
   },
   "Urls": "http://localhost:5100",
   "Oidc": {
-    "Authority": "https://YOUR-DOMAIN.okta.com/oauth2/default",
-    "Audience": "api://hr-mcp"
+    "Authority": "https://YOUR-OIDC-PROVIDER",
+    "Audience": "hr-mcp"
   },
   "Logging": {
     "LogLevel": {
@@ -92,22 +94,24 @@ Add the `Oidc` section with placeholder values. Real values are stored in `appse
 }
 ```
 
-For local development, override in `appsettings.Development.json` (already gitignored):
+For local development with the Duende Docker container, override in `appsettings.Development.json` (gitignored):
 
 ```json
 {
   "Oidc": {
-    "Authority": "https://dev-abc123.okta.com/oauth2/default",
-    "Audience": "api://hr-mcp"
+    "Authority": "https://localhost:44310",
+    "Audience": "hr-mcp"
   }
 }
 ```
+
+The `Authority` is the base URL of the IdentityServer — the JWT Bearer middleware fetches the JWKS automatically from `{Authority}/.well-known/openid-configuration`. The `Audience` must match the API Resource name registered in the identity server.
 
 ---
 
 ## Step 3 — Add Authentication Middleware to `Program.cs`
 
-The full updated `Program.cs` with the four additions highlighted in comments:
+The full updated `Program.cs`. The four new lines are marked `// NEW` and one line is marked `// CHANGED`:
 
 ```csharp
 // src/HrMcp.McpServer/Program.cs
@@ -145,6 +149,17 @@ builder.Services
     {
         options.Authority = builder.Configuration["Oidc:Authority"];
         options.Audience  = builder.Configuration["Oidc:Audience"];
+
+        // Trust self-signed certificates when running against a local
+        // Duende IdentityServer Docker container in Development.
+        // Remove this block when pointing at a cloud provider or a
+        // production server with a trusted certificate.
+        if (builder.Environment.IsDevelopment())
+            options.BackchannelHttpHandler = new HttpClientHandler
+            {
+                ServerCertificateCustomValidationCallback =
+                    HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
+            };
     });
 builder.Services.AddAuthorization();  // NEW
 
@@ -180,11 +195,15 @@ await app.RunAsync();
 
 With this in place, any HTTP request to `/mcp` without a valid JWT returns `401 Unauthorized`. Stdio transport is unaffected — `MapMcp` is not called in stdio mode.
 
+The `BackchannelHttpHandler` block handles the self-signed certificate that Duende's Docker compose setup uses for the nginx reverse proxy. When you switch to a cloud provider with a trusted certificate, delete that block.
+
 ---
 
 ## Step 4 — Agent Token Acquisition
 
-The agent acquires a token via the OAuth2 client credentials flow and passes it as a bearer header using `HttpClientTransportOptions.AdditionalHeaders`:
+The agent acquires a token via the OAuth2 client credentials flow and passes it as a bearer header using `HttpClientTransportOptions.AdditionalHeaders`.
+
+> **Package version note:** If you are using OllamaSharp 5.4 or later, set `Microsoft.Extensions.AI` to version `10.*` in `HrMcp.Agent.csproj`. OllamaSharp 5.4+ pulls `Microsoft.Extensions.AI.Abstractions 10.4.x` transitively, which causes a `TypeLoadException` at runtime when the direct package is pinned at `9.*`.
 
 ```csharp
 // src/HrMcp.Agent/Program.cs
@@ -193,24 +212,33 @@ using ModelContextProtocol.Client;
 using OllamaSharp;
 using HrMcp.Agent;
 using System.Net.Http.Json;
+using System.Text.Json;
 
 // --- Token acquisition (client credentials flow) ---
-var tokenEndpoint = "https://YOUR-DOMAIN.okta.com/oauth2/default/v1/token";
-var clientId     = Environment.GetEnvironmentVariable("MCP_CLIENT_ID")!;
-var clientSecret = Environment.GetEnvironmentVariable("MCP_CLIENT_SECRET")!;
+// The HttpClientHandler below trusts the self-signed certificate used by the
+// local Duende IdentityServer Docker container. Remove it when using a cloud
+// provider or a server with a trusted certificate.
+using var tokenHandler = new HttpClientHandler
+{
+    ServerCertificateCustomValidationCallback =
+        HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
+};
+using var tokenClient = new HttpClient(tokenHandler);
 
-using var tokenClient = new HttpClient();
-var tokenResponse = await tokenClient.PostAsync(tokenEndpoint,
+var tokenResponse = await tokenClient.PostAsync(
+    "https://localhost:44310/connect/token",
     new FormUrlEncodedContent(new Dictionary<string, string>
     {
         ["grant_type"]    = "client_credentials",
-        ["client_id"]     = clientId,
-        ["client_secret"] = clientSecret,
+        ["client_id"]     = "hr-mcp-agent",
+        ["client_secret"] = "hr-mcp-agent-secret",
         ["scope"]         = "hr-mcp-api",
     }));
 tokenResponse.EnsureSuccessStatusCode();
-var tokenDoc  = await tokenResponse.Content.ReadFromJsonAsync<JsonElement>();
+
+var tokenDoc    = await tokenResponse.Content.ReadFromJsonAsync<JsonElement>();
 var accessToken = tokenDoc.GetProperty("access_token").GetString()!;
+Console.WriteLine("Token acquired.\n");
 
 // --- Connect to MCP server with bearer token ---
 await using var mcpClient = await McpClient.CreateAsync(
@@ -238,9 +266,150 @@ await agent.RunAsync();
 
 Key points:
 
-- **`AdditionalHeaders`** on `HttpClientTransportOptions` — sends the `Authorization` header with every request to the MCP server. This is the same property the checklist referred to as `SseClientTransportOptions.AdditionalHeaders`; in `ModelContextProtocol` 1.x it lives on `HttpClientTransportOptions`.
-- **Environment variables** — client ID and secret come from the environment, not from code or config files.
-- **`scope`** — the scope name must match what you configure in your OIDC provider and what the server expects. Omit if your provider does not require scope for client credentials.
+- **`AdditionalHeaders`** on `HttpClientTransportOptions` — sends the `Authorization` header with every request to the MCP server.
+- **`tokenHandler` with cert bypass** — required when the IdentityServer container uses a self-signed certificate. Remove for cloud providers.
+- **Client credentials** — for production, move `client_id` and `client_secret` to environment variables or a secrets manager. Never commit credentials to source control.
+- **`scope`** — the scope name must match what is registered in the identity server. Omit if your provider does not require scope for client credentials.
+
+---
+
+## Duende IdentityServer Docker Setup
+
+This walkthrough uses the [Skoruba Duende IdentityServer Admin UI](https://github.com/skoruba/Duende.IdentityServer.Admin) Docker compose project — a production-ready identity server with a web admin panel, all running locally in Docker.
+
+**1. Clone and start the containers**
+
+```bash
+git clone https://github.com/skoruba/Duende.IdentityServer.Admin
+cd Duende.IdentityServer.Admin
+docker-compose up -d
+```
+
+The nginx reverse proxy exposes the STS at `https://localhost:44310`. The admin UI is at `https://localhost:44303`.
+
+**2. Add the HR MCP API scope, resource, and client**
+
+The container seeds its database from `shared/identityserverdata.json` on first start. Add the following entries, then restart with `docker-compose up -d --force-recreate` to re-seed:
+
+In the `ApiScopes` array:
+
+```json
+{
+  "Name": "hr-mcp-api",
+  "DisplayName": "HR MCP API",
+  "Required": true
+}
+```
+
+In the `ApiResources` array:
+
+```json
+{
+  "Name": "hr-mcp",
+  "Scopes": [ "hr-mcp-api" ]
+}
+```
+
+In the `Clients` array:
+
+```json
+{
+  "ClientId": "hr-mcp-agent",
+  "ClientName": "HR MCP Agent",
+  "AllowedGrantTypes": [ "client_credentials" ],
+  "RequireClientSecret": true,
+  "ClientSecrets": [
+    { "Value": "hr-mcp-agent-secret" }
+  ],
+  "RequirePkce": false,
+  "AllowedScopes": [ "hr-mcp-api" ]
+}
+```
+
+**3. Configure the MCP server**
+
+`appsettings.Development.json` (gitignored):
+
+```json
+{
+  "Oidc": {
+    "Authority": "https://localhost:44310",
+    "Audience": "hr-mcp"
+  }
+}
+```
+
+The `Audience` value must match the `ApiResource` name — `hr-mcp` — not the scope name.
+
+**4. Verify the token endpoint**
+
+```bash
+curl -sk -X POST https://localhost:44310/connect/token \
+  -d "grant_type=client_credentials&client_id=hr-mcp-agent&client_secret=hr-mcp-agent-secret&scope=hr-mcp-api"
+```
+
+A successful response returns an `access_token` JWT. Decode it at [jwt.io](https://jwt.io) and confirm `aud: hr-mcp` and `scope: hr-mcp-api`.
+
+**5. Verify 401 protection**
+
+```bash
+curl -i http://localhost:5100/mcp
+# HTTP/1.1 401 Unauthorized
+```
+
+**6. Run the agent end-to-end**
+
+```bash
+dotnet run --project src/HrMcp.Agent
+# Token acquired.
+# Connected. Tools: GetOpenPositions, WriteJobDescription, ...
+```
+
+---
+
+## Swapping to a Cloud Provider
+
+Because the server and agent speak standard OIDC and OAuth2, switching providers requires changing only the `Authority`, `Audience`, and token endpoint. Remove the `DangerousAcceptAnyServerCertificateValidator` block — cloud providers have trusted certificates.
+
+**Okta**
+
+`appsettings.Development.json`:
+
+```json
+{
+  "Oidc": {
+    "Authority": "https://dev-abc123.okta.com/oauth2/default",
+    "Audience": "api://default"
+  }
+}
+```
+
+Agent token endpoint: `https://dev-abc123.okta.com/oauth2/default/v1/token`
+
+Setup: Okta admin console → Applications → Create App Integration → API Services. Create a custom scope `hr-mcp-api` under Security → API → Authorization Servers → default → Scopes.
+
+**Azure Entra ID**
+
+`appsettings.Development.json`:
+
+```json
+{
+  "Oidc": {
+    "Authority": "https://login.microsoftonline.com/{tenant-id}/v2.0",
+    "Audience": "api://{client-id}"
+  }
+}
+```
+
+Agent token endpoint: `https://login.microsoftonline.com/{tenant-id}/oauth2/v2.0/token`
+
+Agent scope: `{client-id}/.default`
+
+Setup: Azure portal → App Registrations → New registration → Certificates & secrets → Client secrets. Expose an API and add a scope.
+
+**Google Cloud**
+
+Google uses service accounts rather than client credentials for machine-to-machine. The OIDC discovery endpoint is `https://accounts.google.com`. Use a service account key to exchange for a token via the Google OAuth2 token endpoint.
 
 ---
 
@@ -277,6 +446,8 @@ Register `IHttpContextAccessor` in `Program.cs`:
 builder.Services.AddHttpContextAccessor();
 ```
 
+For Duende IdentityServer, add a `role` claim to the client token by including `UserClaims: [ "role" ]` on the API scope and setting the `role` property on the client. Cloud providers handle role claims differently — Okta uses `groups`, Entra uses app roles defined in the manifest.
+
 ---
 
 ## DotnetFastMCP — Built-In OAuth Alternative
@@ -284,45 +455,6 @@ builder.Services.AddHttpContextAccessor();
 [DotnetFastMCP](https://github.com/tekspry/DotnetFastMCP) is a community MCP package that wraps the Microsoft MCP SDK with attribute-based tooling and has OAuth support as a first-class feature. If you are starting a new MCP server project and want OAuth handled at the framework level without writing middleware directly, it is worth evaluating.
 
 The trade-off: DotnetFastMCP uses static methods and targets `net8.0`, which is less idiomatic for Clean Architecture projects (DI, scoped services, etc.) than the approach used in this series. For those requirements, the middleware approach in Step 3 remains the better fit.
-
----
-
-## Okta Free-Tier Setup
-
-Okta's free developer account supports up to 1,000 monthly active users and provides the token infrastructure needed for client credentials.
-
-**1. Create an Okta account**  
-Sign up at [developer.okta.com](https://developer.okta.com). Note your **Okta domain** (e.g., `dev-abc123.okta.com`).
-
-**2. Create an API Service application**  
-In the Okta admin console: Applications → Create App Integration → API Services. This creates a machine-to-machine client that uses the client credentials flow. Note the **Client ID** and **Client Secret**.
-
-**3. Create a custom scope**  
-Security → API → Authorization Servers → default → Scopes → Add Scope. Name it `hr-mcp-api`. This is the scope value in the agent's token request.
-
-**4. Configure the server values**  
-Your `appsettings.Development.json`:
-
-```json
-{
-  "Oidc": {
-    "Authority": "https://dev-abc123.okta.com/oauth2/default",
-    "Audience":  "api://default"
-  }
-}
-```
-
-> **Note:** The default Okta authorization server uses `api://default` as the audience. If you create a custom authorization server, set the Audience to the identifier you configure there.
-
-**5. Set agent environment variables**  
-
-```bash
-set MCP_CLIENT_ID=0oaXXXXXXXXXXXXXX
-set MCP_CLIENT_SECRET=XXXXXXXXXXXXXXXXXXXX
-```
-
-**6. Test**  
-Start the MCP server, then run the agent. The agent calls the token endpoint, receives a JWT, and passes it in the `Authorization` header. The server validates the JWT against Okta's JWKS endpoint (discovered automatically from `Authority`).
 
 ---
 
@@ -368,8 +500,10 @@ Across the six parts of this series you have built a complete, production-shaped
 - [OpenID Connect — Introduction](https://openid.net/developers/how-connect-works/)
 - [JWT Bearer — Microsoft Docs](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/jwt-authn)
 - [OAuth2 Client Credentials Flow — RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749#section-4.4)
+- [Duende IdentityServer — Overview](https://duendesoftware.com/products/identityserver)
+- [Skoruba Duende IdentityServer Admin UI — GitHub](https://github.com/skoruba/Duende.IdentityServer.Admin)
 - [ModelContextProtocol C# SDK — GitHub](https://github.com/modelcontextprotocol/csharp-sdk)
 - [Okta Developer — Client Credentials](https://developer.okta.com/docs/guides/implement-grant-type/clientcreds/main/)
-- [Duende IdentityServer — Overview](https://duendesoftware.com/products/identityserver)
+- [Azure Entra ID — App Registrations](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app)
 - [DotnetFastMCP — GitHub](https://github.com/tekspry/DotnetFastMCP)
 - [Microsoft.AspNetCore.Authentication.JwtBearer — NuGet](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer)
