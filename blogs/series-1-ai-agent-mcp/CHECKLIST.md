@@ -221,12 +221,12 @@ Complete all items in a part's checklist before starting the next part.
 
 ### Code
 - [x] `dotnet build DotnetAiAgentMcp.slnx` → 0 errors after auth middleware added
-- [ ] Unauthenticated request to `/mcp` returns `401 Unauthorized`
-- [ ] Agent successfully acquires token and calls MCP server end-to-end
-- [ ] `GetOpenPositions` and at least one other tool verified with auth in place
+- [x] Unauthenticated request to `/mcp` returns `401 Unauthorized`
+- [x] Agent successfully acquires token and calls MCP server end-to-end
+- [x] `GetOpenPositions` and at least one other tool verified with auth in place
 - [ ] Role-based tool guard verified (if included)
-- [ ] `appsettings.Development.json` has placeholder values only — no real secrets committed
-- [ ] Code in blog matches code in repo exactly — no drift
+- [x] `appsettings.Development.json` has placeholder values only — no real secrets committed
+- [x] Code in blog matches code in repo exactly — no drift
 
 ### Publish Gate
 - [ ] All blog content and code items above are checked

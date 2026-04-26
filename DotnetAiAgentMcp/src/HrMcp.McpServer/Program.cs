@@ -36,6 +36,13 @@ builder.Services
     {
         options.Authority = builder.Configuration["Oidc:Authority"];
         options.Audience  = builder.Configuration["Oidc:Audience"];
+        // Trust self-signed certs when running against a local dev IdentityServer container
+        if (builder.Environment.IsDevelopment())
+            options.BackchannelHttpHandler = new HttpClientHandler
+            {
+                ServerCertificateCustomValidationCallback =
+                    HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
+            };
     });
 builder.Services.AddAuthorization();
 
