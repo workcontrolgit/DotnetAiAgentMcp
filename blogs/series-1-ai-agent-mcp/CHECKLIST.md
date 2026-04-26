@@ -8,7 +8,7 @@ Complete all items in a part's checklist before starting the next part.
 
 | Part | Title | Blog | Code | Published |
 |------|-------|------|------|-----------|
-| 1 | Clean Architecture Foundation with HR Domain | ⬜ | ⬜ | ⬜ |
+| 1 | Clean Architecture Foundation with HR Domain | ⬜ | ✅ | ⬜ |
 | 2 | Introduction to Model Context Protocol | ⬜ | ⬜ | ⬜ |
 | 3 | Building an MCP Server in .NET 10 | ⬜ | ⬜ | ⬜ |
 | 4 | AI Agent with Microsoft.Extensions.AI + Ollama | ⬜ | ⬜ | ⬜ |
@@ -45,7 +45,7 @@ Complete all items in a part's checklist before starting the next part.
 ### Publish Gate
 - [ ] All blog content and code items above are checked
 - [ ] `data/usajobs-seed.json` generated and committed (if Step 8 is included)
-- [ ] GitHub commit tagged: `part-1`
+- [x] GitHub commit tagged: `part-1`
 - [ ] Blog post published to target platform
 - [ ] GitHub repo link in blog post verified and live
 
