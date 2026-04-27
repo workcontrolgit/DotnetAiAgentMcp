@@ -7,7 +7,8 @@
         "npx",
         "playwright",
         "run-test-mcp-server"
-      ]
+      ],
+      "cwd": "${workspaceFolder}/Playwright"
     }
   }
 }

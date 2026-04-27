@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-04-27T02:27:58.678Z
-> Files: 3 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-04-27T02:31:34.081Z
+> Files: 5 tracked | Anatomy hits: 0 | Misses: 0
 
 ## ../../Users/Fuji Nguyen/.claude/plans/
 
@@ -12,6 +12,8 @@
 
 ## ./
 
+- `.gitignore` — Git ignore rules (~103 tok)
+- `.mcp.json` (~66 tok)
 
 ## .claude/
 
@@ -136,7 +138,12 @@
 
 ## blogs/series-1-ai-agent-mcp/
 
+- `CHECKLIST.md` — Series quality gate checklist for Parts 1–6 blog/code parity and publish status (~2600 tok)
+- `part-2-intro-to-mcp.md` — Part 2 concepts: MCP primitives, host/client/server model, official SDK overview (~2900 tok)
+- `part-3-mcp-server-dotnet.md` — Part 3 implementation: MCP server tools, dual transport, inspector-based verification (~5200 tok)
 - `part-4-ai-agent-extensions-ai.md` — Part 4: AI Agent with Microsoft.Extensions.AI + Ollama (~4999 tok)
+- `part-5-claude-desktop-integration.md` — Part 5: Claude Desktop integration, stdio transport, and debugging workflow (~4200 tok)
+- `part-6-mcp-security-oidc.md` — Part 6: OIDC/JWT authentication for MCP server and agent token flow (~5200 tok)
 
 ## blogs/series-1-ai-agent-mcp/diagrams/
 
