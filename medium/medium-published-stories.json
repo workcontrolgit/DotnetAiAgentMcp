@@ -11,8 +11,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*plHsXXR0y5mAuHdAgo9xdQ.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Dotnet",
+      "Csharp",
+      "Ollama",
+      "Caching",
+      "Software Design Patterns"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -27,8 +33,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*MdL7uSqs0Dus89rqdFONqQ.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Dotnet",
+      "Csharp",
+      "AI",
+      "Semantic Search",
+      "Vector Search"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -43,8 +55,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*Ogu2JFgBjwfvQlXqEXPZ8Q.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Angular",
+      "Typescript",
+      "AI",
+      "Vector Search",
+      "Semantic Search"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -59,8 +77,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*5VHPtRQoJ8nuInig72BwUw.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Angular",
+      "Dotnet",
+      "AI",
+      "Natural Language",
+      "Search"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -75,8 +99,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*Lx6y5Gj39e6kcZoLfV4nQw.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Angular",
+      "Angular Material",
+      "Typescript",
+      "AI",
+      "Dotnet"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -91,8 +121,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*X55oT0LZWvzFF9j58vPJGg.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Angular",
+      "Angular Material",
+      "AI",
+      "Ollama",
+      "Angular Routing"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -107,8 +143,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*_rWeSHLqr3rJ6YYWrt8eoA.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Dotnet",
+      "Csharp",
+      "AI",
+      "Ollama",
+      "LLM"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -123,8 +165,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*HsjD0gR1AXCDyrgabSdZNQ.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Dotnet",
+      "Csharp",
+      "AI",
+      "Ollama",
+      "LLM"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -139,8 +187,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*F_I0aStu-kLInUqjYBCd8A.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Azure",
+      "Azure Key Vault",
+      "Dotnet",
+      "Zero Trust",
+      "Configuration Management"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -155,9 +209,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*jol1VSAKAHh6bQN44u_LuQ.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Azure",
+      "Duende Identity Server",
+      "Angular",
+      "Cors",
+      "Dotnet"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 401
   },
   {
     "id": "52ea4f2ca110",
@@ -171,8 +231,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*Yghu28sp5QriRAMyB7wYGg.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Azure",
+      "Angular",
+      "Github Actions",
+      "Azure Static Web App",
+      "DevOps"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -187,8 +253,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*zTJzU29-CFiwIdTOIqz9eA.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Azure",
+      "Github Actions",
+      "Dotnet",
+      "DevOps",
+      "Azure Cli"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -203,8 +275,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*4gDAC4SxTF1b_3RhF-BO5g.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Azure",
+      "Github Actions",
+      "Oidc",
+      "DevOps",
+      "Github"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -219,8 +297,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*07Cl6EJxX1U1TAARl9_ujg.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Azure",
+      "Azure Bicep",
+      "Infrastructure As Code",
+      "DevOps",
+      "Azure Cli"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -235,8 +319,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*MqPwNrLwRTO4_BpJQ51DNg.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Azure",
+      "Dotnet",
+      "Angular",
+      "DevOps",
+      "Azure Bicep"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -251,8 +341,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*OXhqdaXsXkt-PZO_H5sE3g.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Dotnet",
+      "Csharp",
+      "Database Seeding",
+      "Fake Data Generator",
+      "Playwright Automation"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -267,8 +363,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*d9p9mnuV0Us04ebrM5_3eg.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Playwright Test",
+      "Dotnet",
+      "Rest Api",
+      "Test Automation",
+      "E2e Testing"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -283,8 +385,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*nNdq2qpfKGggBNs_rRC9kA.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Playwright Test",
+      "Jwt",
+      "Oauth2",
+      "Duende Identity Server",
+      "Test Automation"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -299,8 +407,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*eNcmogoP-PL21eNGa1rV_g.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Playwrights",
+      "Angular",
+      "Angular Material",
+      "Test Automation",
+      "Rbac"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -315,8 +429,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*BxWNsoKf8eJ1CQuCRUkbrA.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Playwrights",
+      "Angular",
+      "Angular Material",
+      "Test Automation",
+      "Page Object Model"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -331,8 +451,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*6g-lrMRXxlfD-oVVkAqeDw.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Playwright Test",
+      "Angular",
+      "Testing",
+      "E2e Testing",
+      "Oauth2"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -347,8 +473,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*XoE4LyAVKPU1z2U2DQkscQ.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Angular",
+      "Angular Material",
+      "Layout",
+      "Material Design",
+      "Themes"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -363,8 +495,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*1LyZ0mWtD30FOPAJhH9aoA.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Angular",
+      "Angular Material",
+      "Mat Dialog",
+      "Angular Reactive Form",
+      "Material Design"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -379,8 +517,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*Kw19Vd1RLQusPIIjTvRdgA.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Angular",
+      "Angular Material",
+      "Reactive Forms",
+      "Form Validation",
+      "Datepicker"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -395,8 +539,12 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*O61CnkqR10t2ZFcqq7rowQ.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Angular",
+      "Dotnet",
+      "Full Stack"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -411,8 +559,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*oO_BFsUlAvwI8oFf6kbfmA.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Angular",
+      "Angular Material",
+      "Pagination",
+      "Autocomplete",
+      "Material Design"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -427,8 +581,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*u4oWD_oTDmTxDEZ0h6ALfg.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Dotnet",
+      "Csharp",
+      "Caching",
+      "Mediator",
+      "Performance"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -443,8 +603,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*9MMfkXTRGnJcxyzBX8I2sw.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Open Api",
+      "Nswag",
+      "Aspnetcore",
+      "Webapi",
+      "Jwt"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -459,8 +625,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*E5JDpkCQjGkg302MNya-Ug.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Dotnet",
+      "Aspnetcore",
+      "Webapi",
+      "Apiversion",
+      "Angular"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -475,9 +647,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*BxhCvgKnTzUC8roZ3_pJ8g.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Dotnet",
+      "Jwt",
+      "Aspnetcore",
+      "Duende Identity Server",
+      "Authorization"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 401
   },
   {
     "id": "c8898ab53552",
@@ -491,8 +669,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*CYjXaHaSrMYmEGVrL6oKcA.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Dotnet",
+      "Clean Architecture",
+      "Cqrs",
+      "Mediatr",
+      "Entity Framework Core"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -507,8 +691,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*pE4ekCyu3AfixaSuoK8fdA.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Angular",
+      "Oauth2",
+      "Rbac",
+      "Ngxpermissions",
+      "Security"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -523,9 +713,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*A8bs4A_aDzCd49penVKFTQ.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Oauth2",
+      "Security",
+      "Angular Http Interceptor",
+      "Duende Identity Server"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 500,
+    "fetchError": 403
   },
   {
     "id": "fc48d2766da8",
@@ -539,9 +736,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*eYN28hOWmftW4o529DS9lQ.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Oauth2",
+      "Route Guards",
+      "Security",
+      "Full Stack"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "bd326d8cdd89",
@@ -555,9 +759,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*OmTIx3fdtnMMW8iqDOpfbQ.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Oauth2",
+      "Pkce",
+      "Authentication",
+      "Full Stack Developer"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "a329dc687702",
@@ -571,9 +782,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*8xQgB_ufUYjFCwLRLVsB8w.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Software Testing",
+      "Playwright Test",
+      "Angular",
+      "Dotnet"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "71726f393a41",
@@ -587,9 +804,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*i8vnRLKYlL04oI9NeSncLw.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Tutorial",
+      "Angular",
+      "Csharp",
+      "Git",
+      "Programming"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "119fce4dbf69",
@@ -603,9 +827,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*6mgz81EmipGjmMSMgoI_ag.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Dotnet",
+      "Web Api Development",
+      "Visual Studio",
+      "Template"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "7ea97ed3fc56",
@@ -619,9 +850,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*prAHFoKjHvXLqtYe.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Angular",
+      "Dotnet",
+      "Jwt",
+      "Oidc"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "1f1437de1cc6",
@@ -635,9 +873,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*Ay7SWBh2EEkCdQ2F.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Csharp",
+      "Visual Studio",
+      "Template"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "843577c8b5c2",
@@ -651,9 +895,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*9Q8r4XzVbcX2zvMo.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Csharp",
+      "Visual Studio",
+      "Template"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "034ebfa87c54",
@@ -667,9 +917,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*9itA2vXShJ1F_woFM5nt9g.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Csharp",
+      "Visual Studio",
+      "Template"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "7931aeb80a9d",
@@ -683,9 +939,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*9itA2vXShJ1F_woFM5nt9g.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Csharp",
+      "Template",
+      "Visual Studio"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "7b5d6d1ed2e1",
@@ -699,9 +961,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*m1KL2oSw3T0eXJaF3Wov5g.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Csharp",
+      "Visual Studio",
+      "Template"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "54f7bc229d24",
@@ -715,9 +983,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*m1KL2oSw3T0eXJaF3Wov5g.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Csharp",
+      "Visual Studio",
+      "Template"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "502d56c45f34",
@@ -731,9 +1005,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*m1KL2oSw3T0eXJaF3Wov5g.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Csharp",
+      "Visual Studio",
+      "Template"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "e1d0189e6d79",
@@ -747,9 +1027,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*m1KL2oSw3T0eXJaF3Wov5g.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Csharp",
+      "Visual Studio",
+      "Template"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "6d9166292eb9",
@@ -763,9 +1049,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*m1KL2oSw3T0eXJaF3Wov5g.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "C Sharp Programming",
+      "Visual Studio",
+      "Template",
+      "Web Api Development"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "afc543e672ec",
@@ -779,9 +1071,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*xtgPBq_h438pnslLpsMQ9w.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "LLM",
+      "Vector Database",
+      "Blazo",
+      "Tailwind Css"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "cf5b6a530e69",
@@ -795,9 +1093,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*YHjSqVmgIAaIHZHnFtA1tg.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Full Stack",
+      "Angualr",
+      "Csharp",
+      "Webapi"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "cb42ff84e668",
@@ -811,9 +1115,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*GBH5CWBtHbjuX9yGsj5kTA.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Webapi",
+      "Testing",
+      "Clean Architecture"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "17ffb373e798",
@@ -827,9 +1137,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*Kspu0sSmxHAksK2CAMSc3A.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Bootstrap 5",
+      "UI Design",
+      "Starter Kit"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "f6769fe56ca7",
@@ -845,7 +1161,8 @@
     "subtitle": null,
     "tags": [],
     "author": null,
-    "responseCount": 0
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "1d86b2fc39a5",
@@ -859,9 +1176,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*8xNz2deXzXVV-HbkSMpviA.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "AI",
+      "Ollama",
+      "Csharp",
+      "Semantic Kernel"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "41fcc3cceb8b",
@@ -875,9 +1198,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*TuGmzTqW8j96Ntj8",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "AI",
+      "Ollama"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "b71e781e5582",
@@ -891,9 +1219,16 @@
     "memberOnly": false,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*bt3GQzhDO_4P_qaaS_okPA.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Ollama",
+      "Csharp",
+      "AI",
+      "Integration",
+      "Knowledge"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "92dc3828a60c",
@@ -907,9 +1242,13 @@
     "memberOnly": false,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*3P6d793yJ1mVGS29SUBQYw.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Pickleball",
+      "Strategy"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "a79660ffebe5",
@@ -923,9 +1262,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*IKufhBU-zex5N7Cs",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Pickleball",
+      "Strategy",
+      "Coaching",
+      "Techniques"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "5b4cb15978fd",
@@ -939,9 +1284,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/110c09ba4444e338d29ed74adb04b0bf053357845c57c64219ba0655d653a4cd",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Pickleball",
+      "Training"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "7a1e37e0899b",
@@ -955,9 +1304,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/253d1ac7271c0a7cc8f41cd8f9de7fb7148297ef9c17b11e085fd6559557c22b",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Pickleball",
+      "Training"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "8f9eca7b7456",
@@ -971,9 +1324,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/a8ce0cea4b9fef8a54ce3f0bb96f7de702490ca0eded890b5bee29316727e477",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Pickleball",
+      "Training"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "37f9fd6b4bba",
@@ -987,9 +1344,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*R3c1nGQUnEJY1De4",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Pickleball",
+      "Strategy",
+      "Skills"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "4544af1c7690",
@@ -1003,9 +1365,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*OY3pHdnW7kr7t4cJ",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Pickleball",
+      "Skills",
+      "Strategy"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "9e5f87ec9dea",
@@ -1019,9 +1386,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*EzVJchtH7OSjznA0",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Pickleball",
+      "Training",
+      "Skills",
+      "Sports"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "f3526b23dd04",
@@ -1035,9 +1408,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*fx3nNJd3gqcH0mDy",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Pdf Converter",
+      "Razor",
+      "Clean Architecture"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "8494a5542518",
@@ -1051,9 +1430,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*Y9ZyVGrK7LtbOtcF",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Webapi",
+      "Visual Studio",
+      "Programming",
+      "Technology"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "0e939e371c53",
@@ -1067,9 +1453,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*8beEbTXyjRa35qAwmf43qg.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Identity Server",
+      "Entity Framework Core",
+      "Csharp",
+      "Programming",
+      "Tutorial"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "1c77e9a211cd",
@@ -1083,9 +1476,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*hHVLcSXVYDSf6GBeUJINeg.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "DevOps",
+      "Entity Framework Core"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "5f3f85e8fca9",
@@ -1099,9 +1497,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*N7utKYqqNmIhyfA6gkGRCw.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Entity Framework Core"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "19c82c4811a7",
@@ -1115,9 +1517,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*O-6M7iwz3mjmPifH",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "ChatGPT",
+      "Elasticsearch",
+      "Webapi"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "11d537e7fc46",
@@ -1131,9 +1539,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*jAz76ip8H92kgnO1WeKUlg.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Net Core",
+      "Webapi",
+      "Programming",
+      "Elasticsearch",
+      "Integration"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "286011759b0e",
@@ -1147,9 +1562,12 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/c8790a6ac4cec21263a79305da5e27032b2811c3bb5ebcbf60bd0ade41026a5c",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Excel"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "cf05bc2258ef",
@@ -1163,9 +1581,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*z3C8bDCfOpCYkX8q2_zPxQ.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Web Forms",
+      "Excel",
+      "How To"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "25ed8efa25fc",
@@ -1179,9 +1603,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*vXcl0DajU53EU1TwNIuJjQ.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Dot Net Framework",
+      "Crud",
+      "Bootstrap",
+      "Gridview",
+      "Modal"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "9a3ab20ca01e",
@@ -1195,9 +1626,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*Q7ornX9qe1xKAU-Q",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "ChatGPT",
+      "Csharp",
+      "Webapi"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "a4f282d6cf90",
@@ -1211,9 +1647,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*LeZKmSlUj7YNC4j8",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Human Resources",
+      "Diversity",
+      "ChatGPT"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "8af8995d2671",
@@ -1227,9 +1668,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*HUlEI6jRRulD87rW",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Webapi",
+      "Cqrs",
+      "Mediatr"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "37cd07873ce7",
@@ -1243,9 +1690,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*FevwmRrI1iuvxN3V",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Net Core",
+      "Web Api Development",
+      "Bogus",
+      "Fake Data",
+      "Seeding"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "e06ed4c0fc89",
@@ -1259,9 +1713,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*aBoVMgwJdjXMURx8",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Pickleball",
+      "Tips"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "bc0423a5b4b5",
@@ -1275,9 +1733,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*NFjhgFU3WlN3_1zB",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "ChatGPT",
+      "Data Analysis",
+      "Data Visualization"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "1c456e5e9af4",
@@ -1291,9 +1754,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*SZJoW3MmQ3OLqUXH",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "ChatGPT",
+      "Diagrams",
+      "Tutorial"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "979c6a706912",
@@ -1307,8 +1775,12 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*lvK1D0354V53yMfp",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Programming",
+      "Angular",
+      "Net Core"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -1323,9 +1795,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*MLhobHWY5pg-vyWW",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Angular",
+      "Net Core",
+      "Web Api Security"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "337d59c41d80",
@@ -1339,9 +1817,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*a5caAOBdRV05w4-e",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Angular",
+      "Rbac"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "2130b8b813d2",
@@ -1357,7 +1840,8 @@
     "subtitle": null,
     "tags": [],
     "author": null,
-    "responseCount": 0
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "4d2d5172bf56",
@@ -1371,9 +1855,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*dx_8wgKCuGMMiruN",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Angular",
+      "Token Service",
+      "Oidc",
+      "Identity Server"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "4f019b532a4c",
@@ -1387,9 +1878,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*i866wQIFcftFyBGY",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Angular",
+      "Net Core",
+      "Demo"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "3884b5068942",
@@ -1403,9 +1900,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*lVV12_ACHSYMUtHI",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Angular",
+      "Dot Net Framework",
+      "Upgrade Skill"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "1b0f2ba54ac6",
@@ -1419,9 +1922,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*hgynoKObi6XMyD-T",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Bootstrap",
+      "Single Page Applications"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "6fac92cd87eb",
@@ -1435,9 +1943,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*Jy4G7qxzz-U1u4P9",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Csharp",
+      "Dependency Injection"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "df2b0acfc85c",
@@ -1451,9 +1964,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*gLwRXR9AFLqPHpOY",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Pickleball",
+      "Round Robins",
+      "Scheduling"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "68846fdd680c",
@@ -1467,9 +1985,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*E2R9B-NqaWu0Ol4x",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Pickleball",
+      "Round Robins",
+      "Scheduling"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "8a339cc62ff0",
@@ -1483,9 +2006,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*kI9qWKytpfgLfqAM",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Round Robins",
+      "Scheduling"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "7fa055e76755",
@@ -1499,9 +2026,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*oVuNZie4m0EZ7RCj",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Csharp",
+      "Ef Core",
+      "Code First"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "63a99e1d4897",
@@ -1515,9 +2048,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*whHgIoeCz2HFxQL7",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Ef Core",
+      "Visual Studio"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "b5fd8bb539ae",
@@ -1531,9 +2068,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*_aLLPlcGoADiBFl8",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Repository Pattern"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "cd91c53b2388",
@@ -1547,9 +2088,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*h4WhHhoM_jnBTAad",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Domain Driven Design"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "64b20057625b",
@@ -1563,9 +2108,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*h4WhHhoM_jnBTAad",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Csharp",
+      "Webapi",
+      "Cqrs"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "f28f0edc9069",
@@ -1579,9 +2130,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*vsPpTuXQUHHX0066",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Angular",
+      "Net Core",
+      "Webapi",
+      "Single Page Applications"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "f265ad8269ed",
@@ -1595,9 +2153,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*e47-qI_qtE1a3xoV",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Angular",
+      "Net Core",
+      "Single Page Applications",
+      "Web Api Development"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "4a78f5a0aa14",
@@ -1611,9 +2176,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*nr4u4JbWMyp7mgUz",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Csharp",
+      "Webapi"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "21ca6c45d78c",
@@ -1627,9 +2197,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*gO7NHUr8U59rKG-F",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Dto",
+      "Tutoria",
+      "Technology"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "eb7b0e2ef224",
@@ -1643,9 +2219,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*kz8bnI8RAb40tUHe",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Webapi",
+      "Kafka",
+      "Event Stream Processing"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "312e1b8d65a8",
@@ -1659,9 +2241,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*yvQslyrKi1Jz3_6v",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "History",
+      "President"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "aa7e37b2bd17",
@@ -1675,9 +2261,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*tWTDF4pYHMzK_pA_",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Abstract"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "31ce73b5e05a",
@@ -1691,9 +2281,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*zAG7k1UA3VD2zsVn",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Abstract"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "9eee0e2c8038",
@@ -1707,9 +2301,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*_zdGJocgFG4qLXLnunG0OA.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Ef Core",
+      "Linq"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "d08c07f52fdd",
@@ -1723,9 +2322,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*8_FfBjVK6F9PqPkQ",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Mediatr",
+      "Fluentvalidator",
+      "Exception Handling"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "4ba2369b4b07",
@@ -1739,9 +2344,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*AAK6cokofE9ma-_y",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Repositories",
+      "Generics"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "c785af9ec7ee",
@@ -1755,9 +2365,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*6Oa95G7KCJhVoV33",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Ef Core",
+      "Bulk Insert"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "42062603deff",
@@ -1771,9 +2386,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*WK-4jVTp5OaP_vS5",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Web Api Development",
+      "Visual Studio"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "7a50e62a73c7",
@@ -1787,9 +2407,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*fg513PRpNEpqWKJu",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Upgrade",
+      "Open Source"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "fc6946717e27",
@@ -1803,9 +2428,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*bJ-T-LUSDjovBo9O-OSArA.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Web Api Development",
+      "Template"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "8a3de6ea3137",
@@ -1819,9 +2449,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*LaHV4fNco8AoyGjX.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Generics"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "543af76f7cc6",
@@ -1835,9 +2469,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*aJnur8TJmRiClEiB.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Generics"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "ea18004bc08f",
@@ -1851,9 +2489,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*tZ59uod994NgPM90.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Web Api Development"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "2db833ba9877",
@@ -1867,9 +2509,12 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/3b073f7105bcb0070d5bd9098b373c2a23f26adebfa1e78a98950176da972768",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Pickleball"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "0926d5d1bd30",
@@ -1883,9 +2528,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*l05EOGqD4LQp-eiv.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Tutorial"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "a02fb34b8d15",
@@ -1899,9 +2548,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*xmOep6VZECAJPeig.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Tutorial"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "ba79c4452c48",
@@ -1915,9 +2568,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*nqvS-nkrVNrTW-Mw.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Generics"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "0b5ba7235641",
@@ -1931,9 +2588,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*XN8DgEMRQ4Aj6PGm",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Pickleball",
+      "Drills",
+      "Techniques"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "e72c982a34b3",
@@ -1947,9 +2609,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*3lJVckAmL6HgxtE7",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Pickleball",
+      "Strategy"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "37ea2a8b49a7",
@@ -1963,9 +2629,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*7xtwNQjNy1Gt-D8n",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Pickleball",
+      "Strategy"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "92b0a4d89d26",
@@ -1979,9 +2649,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*blPLfaqn0RNlIJSE.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Concept"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "e32b5152ee86",
@@ -1995,9 +2669,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*WLZNywuBUtoi4yeGz_yn9g.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Reactive Forms",
+      "Combobox",
+      "Ratings"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "6675aed1a84b",
@@ -2013,7 +2693,8 @@
     "subtitle": null,
     "tags": [],
     "author": null,
-    "responseCount": 0
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "14add13f073a",
@@ -2027,9 +2708,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*LSbjq3yBb3rW6wIZ.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Environment",
+      "Understanding"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "00e7f9974971",
@@ -2043,9 +2729,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*u6Cl2BmMeQ0_B7nt",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Typescript",
+      "Operators",
+      "Learning To Code"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "eaebbec7712d",
@@ -2059,9 +2750,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*MOvHUKI9VdWb6yH2.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Class",
+      "Record"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "4763e62be986",
@@ -2075,9 +2771,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*xyTkEY7yE6hcjpfKEL4lRQ.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Openid Connect",
+      "Security Token",
+      "Knowledge"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "d3645c8e13dc",
@@ -2091,9 +2792,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*mD8GJK2VN5J9nqWN",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Github Actions",
+      "Webapi",
+      "Azure"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "69bdf644afd0",
@@ -2107,9 +2813,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*s6kZmOk5HF6T0YBk.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Net Core",
+      "Token Service"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "705f3d6d0d09",
@@ -2123,9 +2834,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*W27pFHsnTFpl2-9J.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Cli",
+      "Github Pages"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "dee4a94e7c80",
@@ -2139,9 +2855,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*LhfIdmWqhV8hk-ZG",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Testing",
+      "Example"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "3f9e61d8e72c",
@@ -2155,9 +2876,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*S1ZnfMs9Cl4nciET",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Rest Api",
+      "Visual Studio",
+      "Template"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "472cb78d82f1",
@@ -2171,9 +2898,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*na_m8mY9H4L0ppiY",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Validation"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "2bbbf19f8403",
@@ -2187,9 +2918,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*sCGkjhieai_CE936",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Reactive Forms",
+      "Reactive Form Validation"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "b0996491e1a2",
@@ -2203,9 +2939,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*EGpAJS0CPW1_f28d.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Bootstrap 5",
+      "Toast",
+      "Standalone Component"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "8fcd65bcf074",
@@ -2219,9 +2961,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*__Cc9-xLuogvjWRN",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Bootstrap",
+      "Modal",
+      "Tutorial"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "38aa7be95819",
@@ -2235,9 +2983,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*_B5rbylSI3-HSppE.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Angular 16",
+      "Upgrade"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "b800dbed55a8",
@@ -2251,9 +3004,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*c6BXrsIa1QkFoOveHkfE_w.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Oracle",
+      "Entity Framework Core",
+      "Web Api Development"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "7c515f5745dd",
@@ -2267,9 +3026,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*8KHxFkAftO-nQfhsC_RWug.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Visual Studio",
+      "Developer Tools",
+      "Secrets",
+      "Security"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "1ec4ebaedbf6",
@@ -2283,9 +3048,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*CoFkQTtoTnGLt8gphBMADg.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Oracle",
+      "Visual Studio",
+      "Extension"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "32b7777c9119",
@@ -2299,9 +3069,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*qljEN909cMeJs9pR.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Oracle",
+      "Database",
+      "Autonomous Database",
+      "Cloud Computing"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "404e3ffbfdff",
@@ -2315,9 +3091,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*hD_zyy0JhUlnjYXxRWR3qA.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Net Core",
+      "Webapi",
+      "Rest Api",
+      "Clean Architecture"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "e936bc7e393",
@@ -2331,9 +3114,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*XeleixFLqfCdLjfx-RoIKw.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Blazo",
+      "Material Design",
+      "Visual Studio",
+      "Template"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "40fbb4ea64a",
@@ -2347,9 +3137,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/253d1ac7271c0a7cc8f41cd8f9de7fb7148297ef9c17b11e085fd6559557c22b",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Blazor",
+      "Programming"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "36e8e7ded56c",
@@ -2363,9 +3158,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*d4sKht87TQOAmZom.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Blazor",
+      "Bootstrap",
+      "Concept",
+      "Programming"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "6ac6d1af278c",
@@ -2379,9 +3181,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*vzo2XlP_AhVbdwJmi8sjdw.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Blazor",
+      "Template",
+      "Ui Ux Design"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "cc337a6510ab",
@@ -2395,9 +3203,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/a8ce0cea4b9fef8a54ce3f0bb96f7de702490ca0eded890b5bee29316727e477",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Middleware",
+      "Programming",
+      "Concept"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "bd56d255b930",
@@ -2411,9 +3225,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*n26nyneAxrF87YRo.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Learning",
+      "Concept"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "783f58b66d04",
@@ -2427,9 +3246,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*8-VEs7SYGdjQFewD.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Concept",
+      "Learning",
+      "Programming"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "720636054f12",
@@ -2443,9 +3268,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*1o5jsGnQ6xijKFIm.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Knowledge",
+      "Oop",
+      "Solid Principles"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "d56303936933",
@@ -2459,9 +3290,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*xW7tqGsiyeq-iVtF",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Net Core",
+      "Dependency Injection"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "6219bd2a168",
@@ -2475,9 +3311,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*AgOCmBjFCNlmA49k.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Webapi",
+      "Jwt",
+      "Net Core"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "c3eff657b99d",
@@ -2491,9 +3333,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*C0mSwBNVsGkp1zi1.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Jwt",
+      "Nuget Package",
+      "Knowledge"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "2fbdfad99ec9",
@@ -2507,9 +3355,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*rH09NNPPeEqYcLGm.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Blazor",
+      "Pkce",
+      "Oidc Client Js"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "2f1ea6d7b35d",
@@ -2523,9 +3377,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0ab714002e199418d55d87487144d5e179db39b122aab2b2d49f24985a2e3268",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Karma",
+      "Tdd",
+      "Unit Test Framework"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "2b9bab635db9",
@@ -2539,9 +3399,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*rEPj2t4oDF6J94a1.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Jasmine",
+      "Tdd"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "a9f25ea7c669",
@@ -2555,9 +3420,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*F97L8lVLNZmnPKVFCChJTw.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Karma",
+      "Jasmine",
+      "Tdd"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "494f7c4f53f",
@@ -2571,9 +3442,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*inYwJJv0awskquIZ.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "JavaScript",
+      "Angular",
+      "Unit Testing",
+      "Unit Test Framework"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "77b1e8ca6fa8",
@@ -2587,9 +3464,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*tDuTzzhnmslZelh8EdURVQ.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "ChatGPT",
+      "Visual Code",
+      "Productivity"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "5b2e773a63aa",
@@ -2603,9 +3485,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*44f_QTg19LwuXcI4",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Angular",
+      "Route",
+      "Oidc Client Js"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "6217576484b2",
@@ -2619,8 +3507,12 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/8e14c4381c6099d3ecf0f402666d596f5a6456be8a58343bf4d85acc567ba803",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Csharp",
+      "Knowledge",
+      "Learning"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -2635,9 +3527,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/110c09ba4444e338d29ed74adb04b0bf053357845c57c64219ba0655d653a4cd",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "ChatGPT",
+      "Definition",
+      "OpenAI"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "8d44638a1b8f",
@@ -2651,9 +3548,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*14w8AqKvgamFzWVxutEemQ.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Visual Studio",
+      "Productivity",
+      "ChatGPT"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "83dc38aa8d5",
@@ -2667,9 +3570,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*V90QN0xpYcB6vW7t.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Csharp",
+      "Identity",
+      "Authentication"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 4,
+    "fetchError": 403
   },
   {
     "id": "2fd83c37b008",
@@ -2683,9 +3592,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/110c09ba4444e338d29ed74adb04b0bf053357845c57c64219ba0655d653a4cd",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Pkce",
+      "Jwt",
+      "Security"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "101b4c53a8a6",
@@ -2699,9 +3614,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*VRXV_Z9WJUFly4XL",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Jokes",
+      "Oop"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "c1d4483a79aa",
@@ -2715,9 +3635,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/7280ed8cf2fe1568aa4891c4276068a914da03949aa4a328b4fd77614007fdbb",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Git",
+      "Angular",
+      "Repositories"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "7668ee3f6a67",
@@ -2731,9 +3656,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*JlMYd28IBVVsvua-.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Identity Management",
+      "Jwt",
+      "Oidc"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "64e5e7568d30",
@@ -2747,9 +3678,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/7280ed8cf2fe1568aa4891c4276068a914da03949aa4a328b4fd77614007fdbb",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Security",
+      "Definition",
+      "Single Page Applications"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "7f006460ef6",
@@ -2763,9 +3700,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/3b073f7105bcb0070d5bd9098b373c2a23f26adebfa1e78a98950176da972768",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Definition",
+      "Oop",
+      "Jokes",
+      "Programming"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "76b3f50082ff",
@@ -2779,9 +3723,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/9aee695f83669503f97d9ca29d89942a49664c4fc27bb4f2faa3638390ceff5c",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Oop",
+      "Definition",
+      "Jokes"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "60d468998138",
@@ -2795,9 +3745,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/ab32eb8461142e4884d537415df41ea7072e7447c63d9235e135dc2b6dfb3a94",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Oop",
+      "Encapsulation",
+      "Jokes",
+      "Definition"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "64178d0b5d33",
@@ -2811,9 +3768,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/91b4cb73a944e1d27d5b9c057d310030c6cc236b371df86464ea194b87159845",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Concept",
+      "Programming",
+      "Jokes",
+      "Definition"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "248f2412c736",
@@ -2827,9 +3791,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/7280ed8cf2fe1568aa4891c4276068a914da03949aa4a328b4fd77614007fdbb",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Oop",
+      "Definition",
+      "Concept",
+      "Jokes"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "d2d9530cbedb",
@@ -2843,9 +3814,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/253d1ac7271c0a7cc8f41cd8f9de7fb7148297ef9c17b11e085fd6559557c22b",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Polymorphism",
+      "Definition",
+      "Concept",
+      "Jokes"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "8dba430965e3",
@@ -2859,9 +3837,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/56439e068a17200d733d148d8933d55501ac9dcc329a6f86272aeffc8ceb50a8",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Abstraction",
+      "Override",
+      "Inheritance",
+      "Jokes"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "139d36cdbf91",
@@ -2875,9 +3860,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/253d1ac7271c0a7cc8f41cd8f9de7fb7148297ef9c17b11e085fd6559557c22b",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Architecture",
+      "Webapi",
+      "Csharp",
+      "Programming",
+      "Jokes"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "f7856d5f41f7",
@@ -2891,9 +3883,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*7TCo0tEFWvVsz0lMayJzPA.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Programming",
+      "Mediator Pattern",
+      "Cqrs",
+      "Crud"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "6b9c7480b1ec",
@@ -2907,9 +3906,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*s1-osvfEXJdph0Sw",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Mediator Pattern",
+      "Programming",
+      "Definition",
+      "Jokes"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "480300f184ab",
@@ -2923,9 +3929,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/bb187a1ebc430cb35e482a9757f2d15e8c83f5f7c5fab166e9004ce841008094",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Cqrs",
+      "Patterns",
+      "Definition",
+      "Jokes"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "a40cd9e56002",
@@ -2939,9 +3952,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/86f133e4424c43290199ce3727b65dccd9b29f2f1e6c8257a6abb6d021f45020",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Programming",
+      "Ef Core",
+      "Definition"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "3a651c501d4",
@@ -2955,9 +3974,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*jckRkoP02jRiSNJq.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Csharp",
+      "Ef Core",
+      "How To"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "4284117a1a45",
@@ -2971,9 +3996,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*4PqiEYKqeAf9d3m-HjAsFw.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Webapi",
+      "Design",
+      "Programming"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "1e6091483a43",
@@ -2987,9 +4018,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/9aee695f83669503f97d9ca29d89942a49664c4fc27bb4f2faa3638390ceff5c",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Ef Core",
+      "Performance",
+      "How To"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "7d42c7a445d9",
@@ -3003,9 +4040,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*VCvl1rjYT4o6XRnm.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Angular",
+      "Ef Core",
+      "Troubleshooting"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "7166028da25f",
@@ -3019,9 +4062,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/ab32eb8461142e4884d537415df41ea7072e7447c63d9235e135dc2b6dfb3a94",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Ef Core",
+      "Rest Api",
+      "Csharp"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "d0dcacf49ecf",
@@ -3035,9 +4084,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*5d67xIaUNaVKtXLlgPEwMQ.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Rest Api",
+      "Design",
+      "Implementation"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "66fd882888e5",
@@ -3051,9 +4106,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*C9aOqQgeM9KLwtP6Ie1qpg.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Angular",
+      "Cqrs",
+      "Entity Framework Core"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "ef98b2da02ba",
@@ -3067,9 +4128,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*rlVsrBwVrIRs6jo6",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Sdlc",
+      "Developer",
+      "Concept"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "3e5997187af3",
@@ -3083,9 +4150,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*pJy5MHgBwgZBerMt.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Secuirty",
+      "Oidc",
+      "Jwt",
+      "Programming"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "68b2b17c04f8",
@@ -3099,9 +4172,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/eca3d3b5fb936ab346077b194b08a6b17f33c89eb76924469d110fa41d232cd3",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Security",
+      "Programming",
+      "Angular",
+      "Dotnet"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "e3ee2e034a76",
@@ -3115,9 +4194,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/56439e068a17200d733d148d8933d55501ac9dcc329a6f86272aeffc8ceb50a8",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Angular",
+      "How To",
+      "Patterns"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "b6af9537f16e",
@@ -3131,9 +4216,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*lFbhRECnQO6ieGzU-YjvoA.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Angular",
+      "Demo",
+      "Open Source"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "f060d1a4b3c7",
@@ -3147,9 +4238,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*C4T6GLqTriBrr1z7.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Programming",
+      "Architecture",
+      "Definition"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "66dc58cf7cc2",
@@ -3163,9 +4260,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*sWBuEkGiOjoFSP3U.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Programming",
+      "Definition",
+      "Knowledge"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "9186168dddfa",
@@ -3179,9 +4282,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*_6be4DMoHBECVOEa2nJSoA.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Security Token",
+      "Net Core",
+      "Jwt"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "f9f4b8f3590f",
@@ -3195,9 +4304,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/110c09ba4444e338d29ed74adb04b0bf053357845c57c64219ba0655d653a4cd",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Techniques",
+      "Concept",
+      "Design"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "563227ef7a20",
@@ -3211,9 +4326,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*uM9rZs3XJcrnjVMI",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Angular",
+      "Net Core",
+      "Jwt"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "6f949402be05",
@@ -3227,9 +4348,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0d702cbfe9920e00e94464660874e97b36b08e18a7844ad35d0d5cd2de2ef897",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Programming",
+      "How To",
+      "Technology"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "1d7830f38f85",
@@ -3243,9 +4370,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*9mA5BMmWWP0iN3ev",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Programming",
+      "Knowledge",
+      "FAQ"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "e7f9f5540a7a",
@@ -3259,9 +4392,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*R9pBEwx2x0tIPHBA",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Programming",
+      "Design Patterns",
+      "Net Core"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "a2f90591dbfa",
@@ -3275,9 +4414,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/ab32eb8461142e4884d537415df41ea7072e7447c63d9235e135dc2b6dfb3a94",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Cors",
+      "Single Page Applications"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "a3cd99e59ab3",
@@ -3291,9 +4435,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*iXylXihXge5HeZBkdI2TRA.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Csharp",
+      "Ef Core",
+      "Rate Limiting"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "ffec88ee7261",
@@ -3307,9 +4457,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*DVZdUNw5SR8ypo5t",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Programming",
+      "Technology",
+      "What Is"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "5da39baa07be",
@@ -3323,9 +4479,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0ab714002e199418d55d87487144d5e179db39b122aab2b2d49f24985a2e3268",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Solid Principles",
+      "Programming",
+      "How To"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "581acfb5c91",
@@ -3339,9 +4501,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*asV-9c2N-Wp1y1I2",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Programming",
+      "Identityserver4",
+      "Dot Net Framework"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "316d29fde27a",
@@ -3355,9 +4523,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/5f1f586cc41943becdefc4cf716f5e4d75f28bf980a0168ac5279df3fcf6dd00",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Visual Studio",
+      "Csharp",
+      "Programming",
+      "How To"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "1b80268646c4",
@@ -3371,9 +4545,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/ab32eb8461142e4884d537415df41ea7072e7447c63d9235e135dc2b6dfb3a94",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Programming",
+      "Technology",
+      "How To"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "3f8969ba701a",
@@ -3387,9 +4567,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*Om2muGZ16YdGLSxg",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Programming",
+      "Rate Limiting",
+      "How To"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "260bb76a692d",
@@ -3403,9 +4589,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/eca3d3b5fb936ab346077b194b08a6b17f33c89eb76924469d110fa41d232cd3",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Definition",
+      "Http Request",
+      "Knowledge"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "21857b0e827b",
@@ -3419,9 +4611,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*X0por4s57oPY8ATJ",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Programming",
+      "Definition",
+      "Csharp",
+      "Technology"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "8d3839eb72fe",
@@ -3435,9 +4633,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/3b073f7105bcb0070d5bd9098b373c2a23f26adebfa1e78a98950176da972768",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Architecture",
+      "Programming",
+      "Patterns"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "a085f7fd9c99",
@@ -3451,9 +4655,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/a8ce0cea4b9fef8a54ce3f0bb96f7de702490ca0eded890b5bee29316727e477",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Git",
+      "Gitflow",
+      "Programming",
+      "Productivity"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "33af4cf78265",
@@ -3467,9 +4677,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/3b073f7105bcb0070d5bd9098b373c2a23f26adebfa1e78a98950176da972768",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Git",
+      "Gitflow",
+      "Programming",
+      "How To"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "1297ff854402",
@@ -3483,9 +4699,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/ab32eb8461142e4884d537415df41ea7072e7447c63d9235e135dc2b6dfb3a94",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Programming",
+      "Git",
+      "Gitflow"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "1d649c6ca371",
@@ -3499,9 +4721,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0ab714002e199418d55d87487144d5e179db39b122aab2b2d49f24985a2e3268",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Programming",
+      "Web Browser",
+      "JavaScript"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "58acb9843733",
@@ -3515,9 +4743,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*zcfNq2F86FeHEulRD1g6vw.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Programming",
+      "Visual Studio",
+      "How To"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "20f8aebc4d8d",
@@ -3531,9 +4765,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*U6OVEpoD-6sbTDTD",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Programming",
+      "Net 7",
+      "How To"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "9fa9f88d772",
@@ -3547,9 +4787,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*YQ8BA9_QRP6BNECd",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Programming",
+      "Csharp",
+      "Net 7"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "558a661cff5",
@@ -3563,9 +4809,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*r2whlknVkjIxheYd.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Programming",
+      "Webapi",
+      "Net 7"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "993f847b9ebc",
@@ -3579,9 +4831,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*rEckcvV4E_wDWqW5",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Programming",
+      "Cqrs",
+      "Csharp"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "4d39ad9b43b5",
@@ -3595,9 +4853,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/c8790a6ac4cec21263a79305da5e27032b2811c3bb5ebcbf60bd0ade41026a5c",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Programming",
+      "Csharp",
+      "Net Core"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "e6f50ee49152",
@@ -3611,9 +4875,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/319daec016b12da748373d51bd9d27c727580bba9947096fe89b8e2efb8e03a6",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Programming",
+      "Event Logs",
+      "Csharp"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "bf2fd5679b09",
@@ -3627,9 +4897,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*2CSwkmmG5XMElDY3OcXZsg.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Programming",
+      "Csharp",
+      "Net Core 7"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "8cf42f8e6a85",
@@ -3643,9 +4919,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/8e14c4381c6099d3ecf0f402666d596f5a6456be8a58343bf4d85acc567ba803",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Programming",
+      "Angular",
+      "Standalone Component"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "46d2f8e873f9",
@@ -3659,9 +4941,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*X5MviLDAw_ertlQ7zO4Hrg.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Csharp",
+      "Webapi",
+      "Technology",
+      "Programming"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "c7d2ef885039",
@@ -3675,9 +4963,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*SJH0qIORz7awdSaROgZyDA.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Angular",
+      "Jwt"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "3f4b9b856622",
@@ -3691,9 +4984,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*6_EH8a1agvRS7X_Y1HxYzQ.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Angular",
+      "Oidc"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "91749dfc5946",
@@ -3707,9 +5005,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/253d1ac7271c0a7cc8f41cd8f9de7fb7148297ef9c17b11e085fd6559557c22b",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Developer",
+      "Chrome"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "68f118c5e982",
@@ -3723,9 +5026,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*57XghOMFYriX8WQX",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Aspnetcore",
+      "What Is"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "14e0814ad872",
@@ -3739,9 +5047,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/bed282702cab068e73fed54f4f2476879d8beed14768d4a3cb7cf4d5e0cabebe",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Net Core",
+      "C Sharp Programming"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "2f07ad5e611d",
@@ -3755,9 +5068,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*GDv-nGio7QTqpqR2",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Angular",
+      "How To"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "3d8be59aef03",
@@ -3771,9 +5089,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*lqeycIWloBTM8JU-",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Angular",
+      "How To"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "c3338ab9e524",
@@ -3787,9 +5110,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/8e14c4381c6099d3ecf0f402666d596f5a6456be8a58343bf4d85acc567ba803",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Aspnetcore",
+      "How To"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "b416b920f3b0",
@@ -3803,9 +5131,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*rHbRq7lqucOb5ZT8",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Net Core",
+      "How To"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "b71f2dcfaf47",
@@ -3819,9 +5152,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/253d1ac7271c0a7cc8f41cd8f9de7fb7148297ef9c17b11e085fd6559557c22b",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Angular",
+      "How To"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "fd7ec14d37bd",
@@ -3835,9 +5173,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*_ZlCZv2GxxG2H5Gx",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Typescript",
+      "How To"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "664d2f09e972",
@@ -3851,9 +5194,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/56439e068a17200d733d148d8933d55501ac9dcc329a6f86272aeffc8ceb50a8",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Typescript",
+      "How To"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "65beace3dd32",
@@ -3867,9 +5215,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/bed282702cab068e73fed54f4f2476879d8beed14768d4a3cb7cf4d5e0cabebe",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Git",
+      "How To"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "7dfc87a5e91e",
@@ -3883,9 +5236,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/a8ce0cea4b9fef8a54ce3f0bb96f7de702490ca0eded890b5bee29316727e477",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Blogging"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "ffd5409abec7",
@@ -3899,9 +5256,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/56439e068a17200d733d148d8933d55501ac9dcc329a6f86272aeffc8ceb50a8",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Angular",
+      "How To"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "70db58f128a4",
@@ -3915,9 +5277,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/ab32eb8461142e4884d537415df41ea7072e7447c63d9235e135dc2b6dfb3a94",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Angular",
+      "How To",
+      "Definition"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "68cd285b38d5",
@@ -3931,9 +5299,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0ab714002e199418d55d87487144d5e179db39b122aab2b2d49f24985a2e3268",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Angular",
+      "How To"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "9638b9cf56f3",
@@ -3947,9 +5320,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/110c09ba4444e338d29ed74adb04b0bf053357845c57c64219ba0655d653a4cd",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Angular",
+      "How To",
+      "Definition"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "7622955bf0a9",
@@ -3963,9 +5342,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*22vsDIJlp8CLcUIx",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Angular",
+      "How To"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "9fd3cdf904c",
@@ -3979,9 +5363,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/319daec016b12da748373d51bd9d27c727580bba9947096fe89b8e2efb8e03a6",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Angular",
+      "Definition"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "1e7f10e5a092",
@@ -3995,9 +5384,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/8e14c4381c6099d3ecf0f402666d596f5a6456be8a58343bf4d85acc567ba803",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Angular",
+      "Definition"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "1fc018e1fd84",
@@ -4011,9 +5405,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/86f133e4424c43290199ce3727b65dccd9b29f2f1e6c8257a6abb6d021f45020",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Angular",
+      "Ngfor"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "4243a5881e76",
@@ -4029,7 +5428,8 @@
     "subtitle": null,
     "tags": [],
     "author": null,
-    "responseCount": 0
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "e4b01954904d",
@@ -4043,9 +5443,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/a8ce0cea4b9fef8a54ce3f0bb96f7de702490ca0eded890b5bee29316727e477",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Technology"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "52c904e5b509",
@@ -4059,9 +5463,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*DCH0BPNWrLTMu1Hl",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Sports",
+      "Pickleball",
+      "Practice"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "cfc9a54b441b",
@@ -4075,9 +5484,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/56439e068a17200d733d148d8933d55501ac9dcc329a6f86272aeffc8ceb50a8",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Sports",
+      "Pickleball",
+      "Jokes"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "117ae05ae108",
@@ -4091,9 +5505,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/319daec016b12da748373d51bd9d27c727580bba9947096fe89b8e2efb8e03a6",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Sports",
+      "Pickleball",
+      "Practice"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "fbf5c15d6826",
@@ -4107,9 +5526,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/3b073f7105bcb0070d5bd9098b373c2a23f26adebfa1e78a98950176da972768",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Sports",
+      "Pickleball",
+      "Practice"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "c1527309c2d0",
@@ -4123,9 +5547,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/9aee695f83669503f97d9ca29d89942a49664c4fc27bb4f2faa3638390ceff5c",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Practice",
+      "Pickleball",
+      "Dink",
+      "Sports"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "1a6d634fbbef",
@@ -4139,9 +5569,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/3b073f7105bcb0070d5bd9098b373c2a23f26adebfa1e78a98950176da972768",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Git",
+      "Technology"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "7c2fb0dabc16",
@@ -4155,9 +5589,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/a8ce0cea4b9fef8a54ce3f0bb96f7de702490ca0eded890b5bee29316727e477",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Angular"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "5bd2231e0b45",
@@ -4171,9 +5609,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/9aee695f83669503f97d9ca29d89942a49664c4fc27bb4f2faa3638390ceff5c",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Angular"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "7693c951653a",
@@ -4189,7 +5631,8 @@
     "subtitle": null,
     "tags": [],
     "author": null,
-    "responseCount": 0
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "b8ebdab79777",
@@ -4203,9 +5646,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/50814f8da5bf3f0ecc414d5eeed8d40c98aa4a8f5a133d5030317044aa59e3b2",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Angular",
+      "Bootstrap",
+      "Modal"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "b67bb74c5f1e",
@@ -4219,9 +5668,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*s1-JK-A0b4tPWY9a",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Authentication",
+      "Identityserver4",
+      "C Sharp Programming"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "6b0524562f1c",
@@ -4235,9 +5690,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*vbUaaib3Frm-x2JZ_Mh6kw.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Pickleball",
+      "Technology",
+      "Sports"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "9d115efd6731",
@@ -4251,9 +5711,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*f69YvWmXjMTmMTka",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Netframework",
+      "Bootstrap",
+      "Toasters",
+      "Aspnet"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "adf3518de965",
@@ -4267,9 +5734,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*vWd6EbzAw17sV-xm",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Net6",
+      "Identity Management",
+      "Jwt",
+      "Rest Api"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "67627dafe2e6",
@@ -4283,9 +5757,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*gBlNR4g5mFX3J_HP",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Net6",
+      "Web Development",
+      "Technology",
+      "Webapi"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "a796f6ac0e78",
@@ -4301,7 +5781,8 @@
     "subtitle": null,
     "tags": [],
     "author": null,
-    "responseCount": 0
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "6fb4f9511d9f",
@@ -4315,9 +5796,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*WezBDrwp9KOZ2eWZ",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Oidc",
+      "Aspnet",
+      "Jwt",
+      "Oauth2"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "1d6c72168e7c",
@@ -4331,9 +5819,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*Cuu60oGtMrWsHj8m",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Angular",
+      "Pdf",
+      "Rest Api",
+      "Open Source"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "7a0d8d09943e",
@@ -4347,8 +5842,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*uorxA5jDlkQzEfKx",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Technology",
+      "Docker Compose",
+      "Docker",
+      "Aspnetcore",
+      "Rest Api"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -4363,9 +5864,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*nRxnblv1jVpEf-GG",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Identity Management",
+      "Identityserver4",
+      "Security Token Service"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "ecf81b341b41",
@@ -4379,9 +5886,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*GPiC-V5y0fSOpXHE",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Technology",
+      "Rest Api",
+      "Jwt",
+      "Identity Management"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "1d1080d6f57d",
@@ -4395,9 +5908,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*0Ywr2rpFw8jH9Bpm",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Blazor Server",
+      "Identityserver4",
+      "Authentication",
+      "Blazor",
+      "Technology"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "e79dfdb41f2a",
@@ -4411,9 +5931,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*qB-IyRHQPLF0tlkg",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Rbac",
+      "Jwt",
+      "Toasters"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "f63bfdc0bbde",
@@ -4427,9 +5953,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*S0L_Q7O1DbHtx0JD",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Aspnetcore",
+      "Jwt",
+      "Oidc",
+      "Oauth2",
+      "C Sharp Programming"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "199e51f734bb",
@@ -4443,9 +5976,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*gYGa9IbiW_6LUBAC",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular12",
+      "Oidc",
+      "Bootstrap 4"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "43b4e5ed446f",
@@ -4459,9 +5997,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*RkpkOXnTlmGDuGJN",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Blazor",
+      "Net Core 5",
+      "Azure Ad",
+      "Identity Management",
+      "C Sharp Programming"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "91c0660df8e",
@@ -4475,9 +6020,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*xmcqagUUtyOmMBbT",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "React",
+      "Jwt",
+      "JavaScript",
+      "Programming",
+      "Identityserver4"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "c31f7d77c61a",
@@ -4493,7 +6045,8 @@
     "subtitle": null,
     "tags": [],
     "author": null,
-    "responseCount": 0
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "499cd6149af8",
@@ -4507,9 +6060,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*qZ-mwuEQmFBMcwkl",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Net Core 5",
+      "Blazor Webassembly",
+      "Identityserver4",
+      "Visual Studio",
+      "Single Page Applications"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "9d18fb8412c7",
@@ -4523,9 +6083,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*Yy9I4caIcjqkvRl9",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Blazor Webassembly",
+      "Net Core 5",
+      "C Sharp Programming",
+      "Single Page Applications",
+      "Visual Studio"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "a12d27fdff29",
@@ -4540,8 +6107,9 @@
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*gDK1kIx0vi3ixcsS",
     "subtitle": null,
     "tags": [],
-    "author": null,
-    "responseCount": 0
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "5dd163ff1434",
@@ -4555,9 +6123,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*JqIMylALZ1hGCK82",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Aspnetcore",
+      "Oidc",
+      "Oauth2",
+      "Jwt"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "f0401d9f0b5c",
@@ -4571,9 +6146,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*2XGxE37KShX8ymKJ",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Curated Content",
+      "Cats N Things",
+      "Dot Net Core",
+      "Angular",
+      "Oauth2"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "8e051bb55d7f",
@@ -4587,9 +6169,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*JTirf4d1fpn_chUU",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Identityserver4",
+      "Azure App Service",
+      "Visual Studio 2019",
+      "Oauth2",
+      "Net Core 5"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "74e1a36e801a",
@@ -4603,9 +6192,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*4inQ0CbACX3h9bs7",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular 11",
+      "Modal Form",
+      "Dialog",
+      "Toasters",
+      "Net Core 5"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "d1db21afc31c",
@@ -4619,9 +6215,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*3o8wOv4jxMSlaYnk",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular 11",
+      "Net Core 5",
+      "Rest Api",
+      "Http Client",
+      "Tutorial"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "7560f4afc47b",
@@ -4635,9 +6238,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*I6N7SaTR7sttSUM6",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Oracle",
+      "Entity Framework Core",
+      "Rest Api",
+      "Template",
+      "Bogus"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "891af513cf1d",
@@ -4651,8 +6261,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*l1dmtPD6WEJgLCR7",
     "subtitle": null,
-    "tags": [],
-    "author": null,
+    "tags": [
+      "Net Core 5",
+      "Angular 11",
+      "Cqrs",
+      "Entity Framework Core",
+      "Bogus"
+    ],
+    "author": "Fuji Nguyen",
     "responseCount": 0
   },
   {
@@ -4669,7 +6285,8 @@
     "subtitle": null,
     "tags": [],
     "author": null,
-    "responseCount": 0
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "45d8533538c0",
@@ -4683,9 +6300,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*CaCAu6Fica5u2q0y",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Pagination",
+      "Aspnet Web Api",
+      "Aspnetcore",
+      "Angular 11"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "9360228f7ba1",
@@ -4699,9 +6323,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/1*yh7LNxqt1IJyjUiiEohszQ.png",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Tips And Tricks",
+      "Visual Studio"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "420fbf1b4619",
@@ -4715,9 +6343,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*D6vx0oH2NsLpxzoO",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Spa",
+      "Jwt Token",
+      "Identityserver4",
+      "Aspnetcore",
+      "Open Source"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "5eddc68666b2",
@@ -4731,9 +6366,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*XDGR6DKqHcbODjKC",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular 11",
+      "Oidc Client Js",
+      "Identity Server"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "84bd33bb9533",
@@ -4747,9 +6387,12 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*CIZ75r0b-OXl9wXS",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Identityserver4"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "b10eea295655",
@@ -4763,9 +6406,13 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*oe9jmJ5r_W0nyHeP",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Webapi",
+      "Entity Framework Core"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "19977c84d4a2",
@@ -4779,9 +6426,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*9L38U0dbv8KZvtlT",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Aspnetcore",
+      "Bogus",
+      "Swashbuckle"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "708df7a59a3",
@@ -4795,9 +6447,16 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*n3szgZtXHGqdBmcS",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Rest Api",
+      "Dapper",
+      "Genfu",
+      "Swagger",
+      "Clean Architecture"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "4f757694db5b",
@@ -4811,9 +6470,15 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*Ogdry99--_XCyvyC",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Identityserver4",
+      "Identity Management",
+      "Angular",
+      "Aspnetcore"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "159d145c7434",
@@ -4827,9 +6492,14 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*pTqvAekiaGkdpdpn",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Angular",
+      "Identityserver4",
+      "Aspnet Web Api"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "fe848265e75c",
@@ -4843,9 +6513,12 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*AxZecp1GPBj1bsmn",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Identityserver4"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "1f7daa44a0e6",
@@ -4859,9 +6532,12 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*YZ0wh9XtpMS9LWgA",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Identityserver4"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "d3905002f2fb",
@@ -4876,8 +6552,9 @@
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*KrXduGFRAvIuKds9",
     "subtitle": null,
     "tags": [],
-    "author": null,
-    "responseCount": 0
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "61ac4fd50b78",
@@ -4891,9 +6568,12 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*ImF-ObLGNb4AEfE2",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Identityserver4"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "d7a45e34a5cd",
@@ -4907,9 +6587,12 @@
     "memberOnly": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*c1YCSq6l_WYr3eIf",
     "subtitle": null,
-    "tags": [],
-    "author": null,
-    "responseCount": 0
+    "tags": [
+      "Identityserver"
+    ],
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   },
   {
     "id": "87031991b64d",
@@ -4924,7 +6607,8 @@
     "imageUrl": "https://miro.medium.com/v2/resize:fit:640/0*hTanj1wgCS2wqtp_",
     "subtitle": null,
     "tags": [],
-    "author": null,
-    "responseCount": 0
+    "author": "Fuji Nguyen",
+    "responseCount": 0,
+    "fetchError": 403
   }
 ]

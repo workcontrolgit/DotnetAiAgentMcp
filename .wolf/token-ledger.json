@@ -2,14 +2,14 @@
   "version": 1,
   "created_at": "2026-04-26T17:37:09.902Z",
   "lifetime": {
-    "total_tokens_estimated": 160018,
-    "total_reads": 107,
-    "total_writes": 126,
-    "total_sessions": 14,
-    "anatomy_hits": 36,
-    "anatomy_misses": 69,
-    "repeated_reads_blocked": 21,
-    "estimated_savings_vs_bare_cli": 37469
+    "total_tokens_estimated": 223774,
+    "total_reads": 137,
+    "total_writes": 169,
+    "total_sessions": 17,
+    "anatomy_hits": 43,
+    "anatomy_misses": 92,
+    "repeated_reads_blocked": 31,
+    "estimated_savings_vs_bare_cli": 44777
   },
   "sessions": [
     {
@@ -1803,6 +1803,597 @@
         "writes_count": 0,
         "repeated_reads_blocked": 0,
         "anatomy_lookups": 0
+      }
+    },
+    {
+      "id": "session-2026-04-28-1523",
+      "started": "2026-04-28T19:23:04.516Z",
+      "ended": "2026-04-28T20:17:54.899Z",
+      "reads": [
+        {
+          "file": "C:/Users/Fuji Nguyen/.claude/projects/c--apps-DotnetMcpTutorial/4621c14c-fdc1-4ead-b7a9-09b042cb3e2a/tool-results/toolu_01WfUFKkGmMAjJyUqmM6QTtQ.json",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.playwright-mcp/todo-stories.json",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [
+        {
+          "file": "c:/apps/DotnetMcpTutorial/Playwright/specs/extract-story-details.js",
+          "tokens_estimated": 1083,
+          "action": "create"
+        },
+        {
+          "file": "c:/apps/DotnetMcpTutorial/.playwright-mcp/extract-details.js",
+          "tokens_estimated": 697,
+          "action": "create"
+        },
+        {
+          "file": "c:/apps/DotnetMcpTutorial/Playwright/specs/extract-story-details.js",
+          "tokens_estimated": 1008,
+          "action": "create"
+        },
+        {
+          "file": "c:/apps/DotnetMcpTutorial/Playwright/specs/fetch-story-details.mjs",
+          "tokens_estimated": 1135,
+          "action": "create"
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.playwright-mcp/batch-results-1.json",
+          "tokens_estimated": 2318,
+          "action": "create"
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.playwright-mcp/batch-results-2.json",
+          "tokens_estimated": 2161,
+          "action": "create"
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.playwright-mcp/batch-results-3.json",
+          "tokens_estimated": 2340,
+          "action": "create"
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.playwright-mcp/batch-results-4.json",
+          "tokens_estimated": 2270,
+          "action": "create"
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.playwright-mcp/batch-results-5.json",
+          "tokens_estimated": 1049,
+          "action": "create"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 0,
+        "output_tokens_estimated": 14061,
+        "reads_count": 2,
+        "writes_count": 9,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 0
+      }
+    },
+    {
+      "id": "session-2026-04-28-1523",
+      "started": "2026-04-28T19:23:04.516Z",
+      "ended": "2026-04-28T20:27:49.176Z",
+      "reads": [
+        {
+          "file": "C:/Users/Fuji Nguyen/.claude/projects/c--apps-DotnetMcpTutorial/4621c14c-fdc1-4ead-b7a9-09b042cb3e2a/tool-results/toolu_01WfUFKkGmMAjJyUqmM6QTtQ.json",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.playwright-mcp/todo-stories.json",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/apps/DotnetMcpTutorial/blogs/series-1-ai-agent-mcp/preface.md",
+          "tokens_estimated": 0,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/apps/DotnetMcpTutorial/.wolf/anatomy.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [
+        {
+          "file": "c:/apps/DotnetMcpTutorial/Playwright/specs/extract-story-details.js",
+          "tokens_estimated": 1083,
+          "action": "create"
+        },
+        {
+          "file": "c:/apps/DotnetMcpTutorial/.playwright-mcp/extract-details.js",
+          "tokens_estimated": 697,
+          "action": "create"
+        },
+        {
+          "file": "c:/apps/DotnetMcpTutorial/Playwright/specs/extract-story-details.js",
+          "tokens_estimated": 1008,
+          "action": "create"
+        },
+        {
+          "file": "c:/apps/DotnetMcpTutorial/Playwright/specs/fetch-story-details.mjs",
+          "tokens_estimated": 1135,
+          "action": "create"
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.playwright-mcp/batch-results-1.json",
+          "tokens_estimated": 2318,
+          "action": "create"
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.playwright-mcp/batch-results-2.json",
+          "tokens_estimated": 2161,
+          "action": "create"
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.playwright-mcp/batch-results-3.json",
+          "tokens_estimated": 2340,
+          "action": "create"
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.playwright-mcp/batch-results-4.json",
+          "tokens_estimated": 2270,
+          "action": "create"
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.playwright-mcp/batch-results-5.json",
+          "tokens_estimated": 1049,
+          "action": "create"
+        },
+        {
+          "file": "C:/Users/Fuji Nguyen/.claude/plans/moonlit-singing-newell.md",
+          "tokens_estimated": 896,
+          "action": "create"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 0,
+        "output_tokens_estimated": 14957,
+        "reads_count": 4,
+        "writes_count": 10,
+        "repeated_reads_blocked": 1,
+        "anatomy_lookups": 0
+      }
+    },
+    {
+      "id": "session-2026-04-28-1523",
+      "started": "2026-04-28T19:23:04.516Z",
+      "ended": "2026-04-28T20:31:59.817Z",
+      "reads": [
+        {
+          "file": "C:/Users/Fuji Nguyen/.claude/projects/c--apps-DotnetMcpTutorial/4621c14c-fdc1-4ead-b7a9-09b042cb3e2a/tool-results/toolu_01WfUFKkGmMAjJyUqmM6QTtQ.json",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.playwright-mcp/todo-stories.json",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/apps/DotnetMcpTutorial/blogs/series-1-ai-agent-mcp/preface.md",
+          "tokens_estimated": 0,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/apps/DotnetMcpTutorial/.wolf/anatomy.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [
+        {
+          "file": "c:/apps/DotnetMcpTutorial/Playwright/specs/extract-story-details.js",
+          "tokens_estimated": 1083,
+          "action": "create"
+        },
+        {
+          "file": "c:/apps/DotnetMcpTutorial/.playwright-mcp/extract-details.js",
+          "tokens_estimated": 697,
+          "action": "create"
+        },
+        {
+          "file": "c:/apps/DotnetMcpTutorial/Playwright/specs/extract-story-details.js",
+          "tokens_estimated": 1008,
+          "action": "create"
+        },
+        {
+          "file": "c:/apps/DotnetMcpTutorial/Playwright/specs/fetch-story-details.mjs",
+          "tokens_estimated": 1135,
+          "action": "create"
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.playwright-mcp/batch-results-1.json",
+          "tokens_estimated": 2318,
+          "action": "create"
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.playwright-mcp/batch-results-2.json",
+          "tokens_estimated": 2161,
+          "action": "create"
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.playwright-mcp/batch-results-3.json",
+          "tokens_estimated": 2340,
+          "action": "create"
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.playwright-mcp/batch-results-4.json",
+          "tokens_estimated": 2270,
+          "action": "create"
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.playwright-mcp/batch-results-5.json",
+          "tokens_estimated": 1049,
+          "action": "create"
+        },
+        {
+          "file": "C:/Users/Fuji Nguyen/.claude/plans/moonlit-singing-newell.md",
+          "tokens_estimated": 896,
+          "action": "create"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 0,
+        "output_tokens_estimated": 14957,
+        "reads_count": 4,
+        "writes_count": 10,
+        "repeated_reads_blocked": 1,
+        "anatomy_lookups": 0
+      }
+    },
+    {
+      "id": "session-2026-04-28-1636",
+      "started": "2026-04-28T20:36:27.618Z",
+      "ended": "2026-04-29T03:15:51.528Z",
+      "reads": [],
+      "writes": [
+        {
+          "file": "c:/apps/DotnetMcpTutorial/medium/medium-public-url.json",
+          "tokens_estimated": 696,
+          "action": "create"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 0,
+        "output_tokens_estimated": 696,
+        "reads_count": 0,
+        "writes_count": 1,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 0
+      }
+    },
+    {
+      "id": "session-2026-04-28-1636",
+      "started": "2026-04-28T20:36:27.618Z",
+      "ended": "2026-04-29T03:19:19.436Z",
+      "reads": [],
+      "writes": [
+        {
+          "file": "c:/apps/DotnetMcpTutorial/medium/medium-public-url.json",
+          "tokens_estimated": 696,
+          "action": "create"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 0,
+        "output_tokens_estimated": 696,
+        "reads_count": 0,
+        "writes_count": 1,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 0
+      }
+    },
+    {
+      "id": "session-2026-04-28-1636",
+      "started": "2026-04-28T20:36:27.618Z",
+      "ended": "2026-04-29T03:24:02.122Z",
+      "reads": [],
+      "writes": [
+        {
+          "file": "c:/apps/DotnetMcpTutorial/medium/medium-public-url.json",
+          "tokens_estimated": 696,
+          "action": "create"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 0,
+        "output_tokens_estimated": 696,
+        "reads_count": 0,
+        "writes_count": 1,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 0
+      }
+    },
+    {
+      "id": "session-2026-04-28-1636",
+      "started": "2026-04-28T20:36:27.618Z",
+      "ended": "2026-04-29T03:25:31.141Z",
+      "reads": [],
+      "writes": [
+        {
+          "file": "c:/apps/DotnetMcpTutorial/medium/medium-public-url.json",
+          "tokens_estimated": 696,
+          "action": "create"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 0,
+        "output_tokens_estimated": 696,
+        "reads_count": 0,
+        "writes_count": 1,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 0
+      }
+    },
+    {
+      "id": "session-2026-04-28-1636",
+      "started": "2026-04-28T20:36:27.618Z",
+      "ended": "2026-04-29T03:26:27.726Z",
+      "reads": [],
+      "writes": [
+        {
+          "file": "c:/apps/DotnetMcpTutorial/medium/medium-public-url.json",
+          "tokens_estimated": 696,
+          "action": "create"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 0,
+        "output_tokens_estimated": 696,
+        "reads_count": 0,
+        "writes_count": 1,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 0
+      }
+    },
+    {
+      "id": "session-2026-04-28-1636",
+      "started": "2026-04-28T20:36:27.618Z",
+      "ended": "2026-04-29T03:27:33.396Z",
+      "reads": [],
+      "writes": [
+        {
+          "file": "c:/apps/DotnetMcpTutorial/medium/medium-public-url.json",
+          "tokens_estimated": 696,
+          "action": "create"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 0,
+        "output_tokens_estimated": 696,
+        "reads_count": 0,
+        "writes_count": 1,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 0
+      }
+    },
+    {
+      "id": "session-2026-04-28-1636",
+      "started": "2026-04-28T20:36:27.618Z",
+      "ended": "2026-04-29T03:27:51.857Z",
+      "reads": [],
+      "writes": [
+        {
+          "file": "c:/apps/DotnetMcpTutorial/medium/medium-public-url.json",
+          "tokens_estimated": 696,
+          "action": "create"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 0,
+        "output_tokens_estimated": 696,
+        "reads_count": 0,
+        "writes_count": 1,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 0
+      }
+    },
+    {
+      "id": "session-2026-04-28-1636",
+      "started": "2026-04-28T20:36:27.618Z",
+      "ended": "2026-04-29T03:31:56.227Z",
+      "reads": [],
+      "writes": [
+        {
+          "file": "c:/apps/DotnetMcpTutorial/medium/medium-public-url.json",
+          "tokens_estimated": 696,
+          "action": "create"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 0,
+        "output_tokens_estimated": 696,
+        "reads_count": 0,
+        "writes_count": 1,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 0
+      }
+    },
+    {
+      "id": "session-2026-04-29-0759",
+      "started": "2026-04-29T11:59:40.554Z",
+      "ended": "2026-04-29T12:34:30.349Z",
+      "reads": [
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.mcp.json",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/Playwright/playwright.config.ts",
+          "tokens_estimated": 129,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/Playwright/package.json",
+          "tokens_estimated": 0,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/medium/medium-public-url.json",
+          "tokens_estimated": 696,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/Playwright/specs",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/Playwright/specs/cnn-top-menu.spec.ts",
+          "tokens_estimated": 1440,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/Playwright/specs/seed.spec.ts",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/Playwright/specs/test-1.spec.ts",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/Playwright/specs/extract-story-details.js",
+          "tokens_estimated": 1008,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/Playwright/specs/fetch-story-details.mjs",
+          "tokens_estimated": 1060,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.playwright-mcp/extract-details.js",
+          "tokens_estimated": 697,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.playwright-mcp/inject-content.js",
+          "tokens_estimated": 0,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.playwright-mcp/todo-stories.json",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.playwright-mcp/batch-results-1.json",
+          "tokens_estimated": 2318,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/CLAUDE.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.claude/settings.json",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.claude/rules/openwolf.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/apps/DotnetMcpTutorial/.claude/rules/playwright-test-generator.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/Users/Fuji Nguyen/.claude/plans/moonlit-singing-newell.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/apps/DotnetMcpTutorial/Playwright/package.json",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [
+        {
+          "file": "C:/Users/Fuji Nguyen/.claude/plans/moonlit-singing-newell.md",
+          "tokens_estimated": 1656,
+          "action": "edit"
+        },
+        {
+          "file": "C:/Users/Fuji Nguyen/.claude/skills/medium-editor.md",
+          "tokens_estimated": 2200,
+          "action": "create"
+        },
+        {
+          "file": "c:/apps/DotnetMcpTutorial/medium/scripts/update-series-links.mjs",
+          "tokens_estimated": 1497,
+          "action": "create"
+        },
+        {
+          "file": "c:/apps/DotnetMcpTutorial/medium/scripts/list-drafts.mjs",
+          "tokens_estimated": 521,
+          "action": "create"
+        },
+        {
+          "file": "c:/apps/DotnetMcpTutorial/medium/scripts/get-draft-urls.mjs",
+          "tokens_estimated": 887,
+          "action": "create"
+        },
+        {
+          "file": "c:/apps/DotnetMcpTutorial/Playwright/package.json",
+          "tokens_estimated": 104,
+          "action": "edit"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 7348,
+        "output_tokens_estimated": 6865,
+        "reads_count": 20,
+        "writes_count": 6,
+        "repeated_reads_blocked": 8,
+        "anatomy_lookups": 7
       }
     }
   ],

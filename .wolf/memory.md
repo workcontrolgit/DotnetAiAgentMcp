@@ -3,6 +3,8 @@
 > Chronological action log. Hooks and AI append to this file automatically.
 > Old sessions are consolidated by the daemon weekly.
 
+| 20:30 | Extracted tags/author/subtitle/responseCount for 272 todo stories via Playwright browser fetch in 5 batches of ~60 | medium-published-stories.json, .playwright-mcp/batch-results-*.json | 297/308 stories now have tags, 300/308 have author; 11 stories failed to fetch (private/@-profile URLs) | ~8000 |
+
 ## Session: 2026-04-26 13:38
 
 | Time | Action | File(s) | Outcome | ~Tokens |
@@ -187,3 +189,50 @@
 |------|--------|---------|---------|--------|
 | 15:57 | Created Playwright/specs/extract-story-details.js | — | ~1083 |
 | 16:00 | Created .playwright-mcp/extract-details.js | — | ~697 |
+| 16:01 | Created Playwright/specs/extract-story-details.js | — | ~1008 |
+| 16:03 | Created Playwright/specs/fetch-story-details.mjs | — | ~1060 |
+| 16:09 | Created .playwright-mcp/batch-results-1.json | — | ~2318 |
+| 16:11 | Created .playwright-mcp/batch-results-2.json | — | ~2161 |
+| 16:13 | Created .playwright-mcp/batch-results-3.json | — | ~2340 |
+| 16:15 | Created .playwright-mcp/batch-results-4.json | — | ~2270 |
+| 16:16 | Created .playwright-mcp/batch-results-5.json | — | ~1049 |
+| 16:17 | Session end: 9 writes across 8 files (extract-story-details.js, extract-details.js, fetch-story-details.mjs, batch-results-1.json, batch-results-2.json) | 2 reads | ~14061 tok |
+| 16:21 | Created ../../Users/Fuji Nguyen/.claude/plans/moonlit-singing-newell.md | — | ~836 |
+| 16:27 | Session end: 10 writes across 9 files (extract-story-details.js, extract-details.js, fetch-story-details.mjs, batch-results-1.json, batch-results-2.json) | 4 reads | ~14957 tok |
+| 16:31 | Session end: 10 writes across 9 files (extract-story-details.js, extract-details.js, fetch-story-details.mjs, batch-results-1.json, batch-results-2.json) | 4 reads | ~14957 tok |
+
+## Session: 2026-04-28 16:36
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 23:15 | Created medium/medium-public-url.json | — | ~696 |
+| 23:15 | Session end: 1 writes across 1 files (medium-public-url.json) | 0 reads | ~696 tok |
+| 23:19 | Session end: 1 writes across 1 files (medium-public-url.json) | 0 reads | ~696 tok |
+| 23:24 | Session end: 1 writes across 1 files (medium-public-url.json) | 0 reads | ~696 tok |
+| 23:25 | Session end: 1 writes across 1 files (medium-public-url.json) | 0 reads | ~696 tok |
+| 23:26 | Session end: 1 writes across 1 files (medium-public-url.json) | 0 reads | ~696 tok |
+| 23:27 | Session end: 1 writes across 1 files (medium-public-url.json) | 0 reads | ~696 tok |
+| 23:27 | Session end: 1 writes across 1 files (medium-public-url.json) | 0 reads | ~696 tok |
+| 23:31 | Session end: 1 writes across 1 files (medium-public-url.json) | 0 reads | ~696 tok |
+
+## Session: 2026-04-29 07:43
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-04-29 07:43
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-04-29 07:59
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 08:10 | Edited ../../Users/Fuji Nguyen/.claude/plans/moonlit-singing-newell.md | added optional chaining | ~1546 |
+| 08:32 | Created ../../Users/Fuji Nguyen/.claude/skills/medium-editor.md | — | ~2053 |
+| 08:33 | Created medium/scripts/update-series-links.mjs | — | ~1397 |
+| 08:33 | Created medium/scripts/list-drafts.mjs | — | ~486 |
+| 08:34 | Created medium/scripts/get-draft-urls.mjs | — | ~828 |
+| 08:34 | Edited Playwright/package.json | 3→7 lines | ~104 |
+| 08:34 | Session end: 6 writes across 6 files (moonlit-singing-newell.md, medium-editor.md, update-series-links.mjs, list-drafts.mjs, get-draft-urls.mjs) | 20 reads | ~14213 tok |

@@ -1,10 +1,15 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-04-28T20:00:40.693Z
-> Files: 5 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-04-29T12:34:16.537Z
+> Files: 18 tracked | Anatomy hits: 0 | Misses: 0
 
 ## ../../Users/Fuji Nguyen/.claude/plans/
 
+- `moonlit-singing-newell.md` — Plan: Medium Article Automation with Claude Skill + Scripts (~1450 tok)
+
+## ../../Users/Fuji Nguyen/.claude/skills/
+
+- `medium-editor.md` — medium-editor (~1925 tok)
 
 ## ../AngularNetTutotial/TokenService/Duende-IdentityServer/shared/
 
@@ -20,6 +25,11 @@
 
 ## .playwright-mcp/
 
+- `batch-results-1.json` (~2318 tok)
+- `batch-results-2.json` (~2161 tok)
+- `batch-results-3.json` (~2340 tok)
+- `batch-results-4.json` (~2270 tok)
+- `batch-results-5.json` (~1049 tok)
 - `extract-details.js` — Declares fs (~697 tok)
 
 ## .vscode/
@@ -139,12 +149,14 @@
 
 ## Playwright/
 
+- `package.json` — Node.js package manifest (~316 tok)
 - `playwright.config.ts` (~129 tok)
 
 ## Playwright/specs/
 
 - `cnn-top-menu.spec.ts` — Navigate to CNN and dismiss any consent/overlay dialogs (~1440 tok)
-- `extract-story-details.js` — Extract per-story details (subtitle, tags, responseCount, author) for all 308 stories. (~1083 tok)
+- `extract-story-details.js` — Extract per-story details (subtitle, tags, responseCount, author) for all 308 stories. (~1008 tok)
+- `fetch-story-details.mjs` — Fetches per-story details using Medium session cookies. (~1060 tok)
 
 ## blogs/series-1-ai-agent-mcp/
 
@@ -154,3 +166,13 @@
 
 ## docs/
 
+
+## medium/
+
+- `medium-public-url.json` (~696 tok)
+
+## medium/scripts/
+
+- `get-draft-urls.mjs` — get-draft-urls.mjs (~828 tok)
+- `list-drafts.mjs` — list-drafts.mjs (~486 tok)
+- `update-series-links.mjs` — update-series-links.mjs (~1397 tok)
