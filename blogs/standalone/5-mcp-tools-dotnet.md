@@ -23,3 +23,15 @@ Claude Desktop is an MCP host. Point it at your server via `claude_desktop_confi
 I had a Claude Desktop session calling my locally-running .NET MCP server in under 10 minutes. It felt like cheating. If you're building an MCP server and haven't tested it here yet, you're missing out.
 
 **Get it:** [claude.ai/download](https://claude.ai/download)
+
+---
+
+## 3. GitHub MCP Server
+
+**Give your agent eyes on your codebase.**
+
+This is an official MCP server from GitHub that exposes repos, issues, PRs, code search, and file contents as MCP tools. Your AI agent can search issues, read source code, and summarize PRs — without a single API call baked into your app code. The MCP host handles authentication.
+
+I asked an agent to find all open issues mentioning "performance" in a repo. It returned structured results. No SDK integration, no OAuth dance in my code. Just a tool call.
+
+**Get it:** [github.com/github/github-mcp-server](https://github.com/github/github-mcp-server)
