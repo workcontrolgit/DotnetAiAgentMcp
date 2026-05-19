@@ -361,3 +361,136 @@
 | 07:07 | Created README.md | — | ~1122 |
 | 07:07 | Updated README with architecture diagrams, expanded Get Started, and blog series table (6 parts + 1 standalone) | README.md | complete | ~200 |
 | 07:07 | Session end: 1 writes across 1 files (README.md) | 2 reads | ~1202 tok |
+| 07:10 | Session end: 1 writes across 1 files (README.md) | 2 reads | ~1202 tok |
+
+## Session: 2026-05-15 23:02
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-15 23:02
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 23:27 | Edited DotnetAiAgentMcp/tools/UsaJobsFetcher/Program.cs | 5→5 lines | ~54 |
+| 23:27 | Session end: 1 writes across 1 files (Program.cs) | 2 reads | ~57 tok |
+| 23:30 | Edited DotnetAiAgentMcp/src/HrMcp.Infrastructure.Persistence/DbSeeder.cs | added 1 condition(s) | ~123 |
+| 23:31 | Edited DotnetAiAgentMcp/src/HrMcp.McpServer/Program.cs | 3→4 lines | ~80 |
+| 23:31 | Session end: 3 writes across 2 files (Program.cs, DbSeeder.cs) | 11 reads | ~275 tok |
+| 23:32 | Edited DotnetAiAgentMcp/src/HrMcp.McpServer/Program.cs | 6→6 lines | ~51 |
+| 23:32 | Edited DotnetAiAgentMcp/src/HrMcp.McpServer/Program.cs | inline fix | ~20 |
+| 23:32 | Edited DotnetAiAgentMcp/src/HrMcp.McpServer/Program.cs | modified InitializeDatabaseAsync() | ~135 |
+| 23:32 | Session end: 6 writes across 2 files (Program.cs, DbSeeder.cs) | 11 reads | ~2439 tok |
+| 23:50 | Edited DotnetAiAgentMcp/src/HrMcp.McpServer/appsettings.json | inline fix | ~26 |
+| 23:50 | Session end: 7 writes across 3 files (Program.cs, DbSeeder.cs, appsettings.json) | 11 reads | ~2465 tok |
+| 23:51 | Session end: 7 writes across 3 files (Program.cs, DbSeeder.cs, appsettings.json) | 11 reads | ~2465 tok |
+| 23:52 | Session end: 7 writes across 3 files (Program.cs, DbSeeder.cs, appsettings.json) | 11 reads | ~2465 tok |
+| 00:03 | Edited DotnetAiAgentMcp/src/HrMcp.McpServer/appsettings.json | inline fix | ~28 |
+| 00:03 | Edited publish/McpServer/appsettings.json | inline fix | ~28 |
+| 00:03 | Session end: 9 writes across 3 files (Program.cs, DbSeeder.cs, appsettings.json) | 12 reads | ~2521 tok |
+| 00:05 | Session end: 9 writes across 3 files (Program.cs, DbSeeder.cs, appsettings.json) | 12 reads | ~2521 tok |
+| 06:53 | Edited DotnetAiAgentMcp/src/HrMcp.McpServer/Program.cs | 3→4 lines | ~72 |
+| 06:53 | Edited DotnetAiAgentMcp/src/HrMcp.McpServer/Program.cs | added 1 condition(s) | ~155 |
+| 06:53 | Session end: 11 writes across 3 files (Program.cs, DbSeeder.cs, appsettings.json) | 13 reads | ~2854 tok |
+| 06:55 | Session end: 11 writes across 3 files (Program.cs, DbSeeder.cs, appsettings.json) | 14 reads | ~2854 tok |
+| 07:00 | Session end: 11 writes across 3 files (Program.cs, DbSeeder.cs, appsettings.json) | 14 reads | ~2854 tok |
+| 07:02 | Session end: 11 writes across 3 files (Program.cs, DbSeeder.cs, appsettings.json) | 14 reads | ~5400 tok |
+| 07:06 | Created DotnetAiAgentMcp/tools/UsaJobsFetcher/Program.cs | — | ~3066 |
+| 07:06 | Created DotnetAiAgentMcp/src/HrMcp.Core/Entities/Position.cs | — | ~1047 |
+| 07:06 | Edited DotnetAiAgentMcp/src/HrMcp.Infrastructure.Persistence/DbSeeder.cs | expanded (+11 lines) | ~603 |
+| 07:07 | Edited DotnetAiAgentMcp/src/HrMcp.Infrastructure.Persistence/DbSeeder.cs | 9→13 lines | ~307 |
+| 07:07 | Edited DotnetAiAgentMcp/src/HrMcp.McpServer/Tools/PositionTools.cs | expanded (+11 lines) | ~425 |
+| 07:12 | Session end: 16 writes across 5 files (Program.cs, DbSeeder.cs, appsettings.json, Position.cs, PositionTools.cs) | 18 reads | ~11236 tok |
+| 07:13 | Session end: 16 writes across 5 files (Program.cs, DbSeeder.cs, appsettings.json, Position.cs, PositionTools.cs) | 18 reads | ~11236 tok |
+| 07:15 | Session end: 16 writes across 5 files (Program.cs, DbSeeder.cs, appsettings.json, Position.cs, PositionTools.cs) | 18 reads | ~11236 tok |
+| 07:15 | Session end: 16 writes across 5 files (Program.cs, DbSeeder.cs, appsettings.json, Position.cs, PositionTools.cs) | 18 reads | ~11236 tok |
+| 07:20 | Session end: 16 writes across 5 files (Program.cs, DbSeeder.cs, appsettings.json, Position.cs, PositionTools.cs) | 18 reads | ~11236 tok |
+| 07:23 | Edited DotnetAiAgentMcp/tools/UsaJobsFetcher/Program.cs | modified Join() | ~115 |
+| 07:23 | Edited DotnetAiAgentMcp/tools/UsaJobsFetcher/Program.cs | modified CombineQualifications() | ~122 |
+| 07:23 | Edited DotnetAiAgentMcp/tools/UsaJobsFetcher/Program.cs | 18→21 lines | ~180 |
+| 07:23 | Edited DotnetAiAgentMcp/tools/UsaJobsFetcher/Program.cs | 8→11 lines | ~78 |
+| 07:23 | Edited DotnetAiAgentMcp/src/HrMcp.Core/Entities/Position.cs | expanded (+9 lines) | ~184 |
+| 07:23 | Edited DotnetAiAgentMcp/src/HrMcp.Infrastructure.Persistence/DbSeeder.cs | 2→5 lines | ~79 |
+| 07:24 | Edited DotnetAiAgentMcp/src/HrMcp.Infrastructure.Persistence/DbSeeder.cs | 3→4 lines | ~97 |
+| 07:24 | Edited DotnetAiAgentMcp/src/HrMcp.McpServer/Tools/PositionTools.cs | 3→6 lines | ~48 |
+| 07:27 | Session end: 24 writes across 5 files (Program.cs, DbSeeder.cs, appsettings.json, Position.cs, PositionTools.cs) | 18 reads | ~13905 tok |
+| 07:28 | Edited DotnetAiAgentMcp/tools/UsaJobsFetcher/Program.cs | 4→4 lines | ~62 |
+| 07:28 | Edited DotnetAiAgentMcp/tools/UsaJobsFetcher/Program.cs | modified foreach() | ~28 |
+| 07:28 | Edited DotnetAiAgentMcp/tools/UsaJobsFetcher/Program.cs | 1→2 lines | ~32 |
+| 07:29 | Edited DotnetAiAgentMcp/tools/UsaJobsFetcher/Program.cs | 2→3 lines | ~22 |
+| 07:29 | Edited DotnetAiAgentMcp/src/HrMcp.Core/Entities/Position.cs | 2→5 lines | ~88 |
+| 07:29 | Edited DotnetAiAgentMcp/src/HrMcp.Infrastructure.Persistence/DbSeeder.cs | inline fix | ~33 |
+| 07:29 | Edited DotnetAiAgentMcp/src/HrMcp.Infrastructure.Persistence/DbSeeder.cs | 2→3 lines | ~47 |
+| 07:29 | Edited DotnetAiAgentMcp/src/HrMcp.McpServer/Tools/PositionTools.cs | 2→3 lines | ~23 |
+| 07:32 | Session end: 32 writes across 5 files (Program.cs, DbSeeder.cs, appsettings.json, Position.cs, PositionTools.cs) | 18 reads | ~14266 tok |
+| 07:34 | Edited DotnetAiAgentMcp/tools/UsaJobsFetcher/Program.cs | added nullish coalescing | ~255 |
+| 07:34 | Edited DotnetAiAgentMcp/tools/UsaJobsFetcher/Program.cs | modified Join() | ~126 |
+| 07:34 | Edited DotnetAiAgentMcp/tools/UsaJobsFetcher/Program.cs | 4→7 lines | ~64 |
+| 07:34 | Edited DotnetAiAgentMcp/tools/UsaJobsFetcher/Program.cs | 2→5 lines | ~43 |
+| 07:35 | Edited DotnetAiAgentMcp/src/HrMcp.Core/Entities/Position.cs | expanded (+9 lines) | ~219 |
+| 07:35 | Edited DotnetAiAgentMcp/src/HrMcp.Infrastructure.Persistence/DbSeeder.cs | 1→2 lines | ~53 |
+| 07:35 | Edited DotnetAiAgentMcp/src/HrMcp.Infrastructure.Persistence/DbSeeder.cs | 3→6 lines | ~98 |
+| 07:35 | Edited DotnetAiAgentMcp/src/HrMcp.McpServer/Tools/PositionTools.cs | 4→7 lines | ~58 |
+| 07:36 | Session end: 40 writes across 5 files (Program.cs, DbSeeder.cs, appsettings.json, Position.cs, PositionTools.cs) | 18 reads | ~15246 tok |
+| 09:01 | Session end: 40 writes across 5 files (Program.cs, DbSeeder.cs, appsettings.json, Position.cs, PositionTools.cs) | 18 reads | ~15385 tok |
+| 09:03 | Session end: 40 writes across 5 files (Program.cs, DbSeeder.cs, appsettings.json, Position.cs, PositionTools.cs) | 19 reads | ~15385 tok |
+| 09:03 | Edited ../../Users/Fuji Nguyen/AppData/Roaming/Claude/claude_desktop_config.json | 4→4 lines | ~40 |
+| 09:04 | Session end: 41 writes across 6 files (Program.cs, DbSeeder.cs, appsettings.json, Position.cs, PositionTools.cs) | 19 reads | ~15784 tok |
+
+## Session: 2026-05-15 09:09
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-16 07:15
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-16 07:15
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 07:40 | Edited DotnetAiAgentMcp/src/HrMcp.Core/Entities/Position.cs | expanded (+24 lines) | ~318 |
+| 07:41 | Edited DotnetAiAgentMcp/src/HrMcp.Infrastructure.Persistence/DbSeeder.cs | expanded (+10 lines) | ~216 |
+| 07:41 | Edited DotnetAiAgentMcp/src/HrMcp.Infrastructure.Persistence/DbSeeder.cs | added nullish coalescing | ~279 |
+| 07:41 | Edited DotnetAiAgentMcp/src/HrMcp.McpServer/Tools/PositionTools.cs | expanded (+10 lines) | ~167 |
+| 07:42 | Session end: 4 writes across 3 files (Position.cs, DbSeeder.cs, PositionTools.cs) | 11 reads | ~10188 tok |
+| 10:10 | Session end: 4 writes across 3 files (Position.cs, DbSeeder.cs, PositionTools.cs) | 11 reads | ~10188 tok |
+| 10:12 | Edited DotnetAiAgentMcp/tools/UsaJobsFetcher/Program.cs | modified Join() | ~316 |
+| 10:13 | Edited DotnetAiAgentMcp/tools/UsaJobsFetcher/Program.cs | expanded (+10 lines) | ~141 |
+| 10:13 | Edited DotnetAiAgentMcp/tools/UsaJobsFetcher/Program.cs | expanded (+10 lines) | ~154 |
+| 10:13 | Session end: 7 writes across 4 files (Position.cs, DbSeeder.cs, PositionTools.cs, Program.cs) | 12 reads | ~14382 tok |
+| 11:21 | Session end: 7 writes across 4 files (Position.cs, DbSeeder.cs, PositionTools.cs, Program.cs) | 12 reads | ~14382 tok |
+
+## Session: 2026-05-16 11:25
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-16 11:25
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 11:36 | Edited ../../Users/Fuji Nguyen/AppData/Roaming/Claude/claude_desktop_config.json | 4→7 lines | ~61 |
+| 11:36 | Session end: 1 writes across 1 files (claude_desktop_config.json) | 4 reads | ~2233 tok |
+
+## Session: 2026-05-17 14:05
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-17 14:05
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-19 07:51
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-19 07:51
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|

@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-05-08T11:07:22.489Z
-> Files: 8 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-05-16T15:36:01.488Z
+> Files: 16 tracked | Anatomy hits: 0 | Misses: 0
 
 ## ../../Users/Fuji Nguyen/.claude/plans/
 
@@ -13,6 +13,10 @@
 
 ## ../../Users/Fuji Nguyen/.claude/skills/
 
+
+## ../../Users/Fuji Nguyen/AppData/Roaming/Claude/
+
+- `claude_desktop_config.json` (~351 tok)
 
 ## ../AngularNetTutotial/TokenService/Duende-IdentityServer/shared/
 
@@ -85,6 +89,7 @@
 
 ## DotnetAiAgentMcp/src/HrMcp.Core/Entities/
 
+- `Position.cs` — src/HrMcp.Core/Entities/Position.cs (~1615 tok)
 
 ## DotnetAiAgentMcp/src/HrMcp.Core/Enums/
 
@@ -103,6 +108,7 @@
 
 ## DotnetAiAgentMcp/src/HrMcp.Infrastructure.Persistence/
 
+- `DbSeeder.cs` — src/HrMcp.Infrastructure.Persistence/DbSeeder.cs (~4428 tok)
 
 ## DotnetAiAgentMcp/src/HrMcp.Infrastructure.Persistence/Migrations/
 
@@ -121,12 +127,15 @@
 
 ## DotnetAiAgentMcp/src/HrMcp.McpServer/
 
+- `appsettings.json` (~359 tok)
+- `Program.cs` — src/HrMcp.McpServer/Program.cs (~2172 tok)
 
 ## DotnetAiAgentMcp/src/HrMcp.McpServer/Properties/
 
 
 ## DotnetAiAgentMcp/src/HrMcp.McpServer/Tools/
 
+- `PositionTools.cs` — src/HrMcp.McpServer/Tools/PositionTools.cs (~1324 tok)
 
 ## DotnetAiAgentMcp/src/HrMcp.McpServer/bin/Debug/net10.0/
 
@@ -139,6 +148,7 @@
 
 ## DotnetAiAgentMcp/tools/UsaJobsFetcher/
 
+- `Program.cs` — tools/UsaJobsFetcher/Program.cs (~4006 tok)
 
 ## DotnetAiAgentMcp/tools/UsaJobsFetcher/bin/Debug/net10.0/
 
@@ -184,3 +194,7 @@
 
 ## medium/scripts/
 
+
+## publish/McpServer/
+
+- `appsettings.json` (~359 tok)

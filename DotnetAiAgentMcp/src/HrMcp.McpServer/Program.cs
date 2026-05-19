@@ -19,6 +19,7 @@ var isStdio = args.Contains("--stdio");
 // Console sink is added conditionally: suppressed in stdio mode so stdout
 // carries only JSON-RPC messages.
 var tempConfig = new ConfigurationBuilder()
+    .SetBasePath(AppContext.BaseDirectory)
     .AddJsonFile("appsettings.json", optional: false)
     .AddJsonFile(
         $"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ?? "Production"}.json",
@@ -55,7 +56,11 @@ try
 {
     if (isStdio)
     {
-        var hostBuilder = Host.CreateApplicationBuilder(args);
+        var hostBuilder = Host.CreateApplicationBuilder(new HostApplicationBuilderSettings
+        {
+            Args = args,
+            ContentRootPath = AppContext.BaseDirectory
+        });
         hostBuilder.Services.AddSerilog();
 
         ConfigureCommonServices(hostBuilder.Services, hostBuilder.Configuration);
@@ -68,12 +73,16 @@ try
             .WithStdioServerTransport();
 
         using var host = hostBuilder.Build();
-        await InitializeDatabaseAsync(host.Services);
+        await InitializeDatabaseAsync(host.Services, args.Contains("--reseed"));
         await host.RunAsync();
         return;
     }
 
-    var builder = WebApplication.CreateBuilder(args);
+    var builder = WebApplication.CreateBuilder(new WebApplicationOptions
+    {
+        Args = args,
+        ContentRootPath = AppContext.BaseDirectory
+    });
     builder.Host.UseSerilog();
 
     ConfigureCommonServices(builder.Services, builder.Configuration);
@@ -111,7 +120,7 @@ try
         .WithHttpTransport();
 
     var app = builder.Build();
-    await InitializeDatabaseAsync(app.Services);
+    await InitializeDatabaseAsync(app.Services, args.Contains("--reseed"));
 
     if (enableOidc)
     {
@@ -151,16 +160,30 @@ static void ConfigureCommonServices(IServiceCollection services, IConfiguration 
         new OllamaApiClient(new Uri("http://localhost:11434"), "llama3.2"));
 }
 
-static async Task InitializeDatabaseAsync(IServiceProvider services)
+static async Task InitializeDatabaseAsync(IServiceProvider services, bool forceReseed = false)
 {
     using var scope = services.CreateScope();
     var db = scope.ServiceProvider.GetRequiredService<HrDbContext>();
 
     await db.Database.MigrateAsync();
 
-    // Looks for data/usajobs-seed.json in the working directory (solution root when using dotnet run)
-    var seedPath = Path.Combine(Directory.GetCurrentDirectory(), "data", "usajobs-seed.json");
-    DbSeeder.Seed(db, seedPath);
+    // Walk up from the binary directory to find data/usajobs-seed.json
+    // (works whether invoked via dotnet run, published exe, or Claude Desktop stdio)
+    var seedPath = FindSeedFile("data/usajobs-seed.json");
+    DbSeeder.Seed(db, seedPath, force: forceReseed);
+}
+
+// Searches from AppContext.BaseDirectory upward for a relative path (e.g. "data/usajobs-seed.json").
+// Returns the full path when found, or null if not found within 8 levels.
+static string? FindSeedFile(string relativePath)
+{
+    var dir = new DirectoryInfo(AppContext.BaseDirectory);
+    for (var i = 0; i < 8 && dir is not null; i++, dir = dir.Parent)
+    {
+        var candidate = Path.Combine(dir.FullName, relativePath);
+        if (File.Exists(candidate)) return candidate;
+    }
+    return null;
 }
 
 static bool TryDescribePortConflict(IOException ex, out string message)
