@@ -1,0 +1,3 @@
+$schema: https://azuremlschemas.azureedge.net/latest/serverlessEndpoint.schema.json
+name: claude-sonnet-4-6
+model_id: azureml://registries/azureml-anthropic/models/claude-sonnet-4-6

@@ -1,0 +1,128 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "metadata": {
+    "_generator": {
+      "name": "bicep",
+      "version": "0.43.8.12551",
+      "templateHash": "11462367786926214365"
+    }
+  },
+  "parameters": {
+    "location": {
+      "type": "string",
+      "defaultValue": "[resourceGroup().location]",
+      "metadata": {
+        "description": "Azure region for the AI Services resource."
+      }
+    },
+    "accountName": {
+      "type": "string",
+      "metadata": {
+        "description": "Name of the Azure AI Services account (used in the endpoint URL)."
+      }
+    },
+    "claudeModel": {
+      "type": "string",
+      "defaultValue": "claude-sonnet-4-6",
+      "allowedValues": [
+        "claude-haiku-4-5",
+        "claude-sonnet-4-5",
+        "claude-sonnet-4-6",
+        "claude-sonnet-5",
+        "claude-opus-4-5",
+        "claude-opus-4-6",
+        "claude-opus-4-7",
+        "claude-opus-4-8"
+      ],
+      "metadata": {
+        "description": "Claude model to deploy."
+      }
+    },
+    "deploymentName": {
+      "type": "string",
+      "defaultValue": "claude-sonnet-4-6",
+      "metadata": {
+        "description": "Deployment name used by the application code."
+      }
+    },
+    "organizationName": {
+      "type": "string",
+      "metadata": {
+        "description": "Your organization name (required for Anthropic marketplace registration)."
+      }
+    },
+    "industry": {
+      "type": "string",
+      "defaultValue": "Technology",
+      "metadata": {
+        "description": "Industry for marketplace registration (e.g. Technology, Finance, Healthcare)."
+      }
+    },
+    "countryCode": {
+      "type": "string",
+      "defaultValue": "US",
+      "metadata": {
+        "description": "Two-letter ISO country code for marketplace registration."
+      }
+    }
+  },
+  "resources": [
+    {
+      "type": "Microsoft.CognitiveServices/accounts",
+      "apiVersion": "2025-04-01-preview",
+      "name": "[parameters('accountName')]",
+      "location": "[parameters('location')]",
+      "kind": "AIServices",
+      "sku": {
+        "name": "S0"
+      },
+      "properties": {
+        "customSubDomainName": "[parameters('accountName')]",
+        "publicNetworkAccess": "Enabled"
+      }
+    },
+    {
+      "type": "Microsoft.CognitiveServices/accounts/deployments",
+      "apiVersion": "2025-04-01-preview",
+      "name": "[format('{0}/{1}', parameters('accountName'), parameters('deploymentName'))]",
+      "sku": {
+        "name": "GlobalStandard",
+        "capacity": 1
+      },
+      "properties": {
+        "model": {
+          "format": "Anthropic",
+          "name": "[parameters('claudeModel')]"
+        },
+        "versionUpgradeOption": "OnceNewDefaultVersionAvailable",
+        "modelProviderData": {
+          "organizationName": "[parameters('organizationName')]",
+          "industry": "[parameters('industry')]",
+          "countryCode": "[parameters('countryCode')]"
+        }
+      },
+      "dependsOn": [
+        "[resourceId('Microsoft.CognitiveServices/accounts', parameters('accountName'))]"
+      ]
+    }
+  ],
+  "outputs": {
+    "endpoint": {
+      "type": "string",
+      "value": "[reference(resourceId('Microsoft.CognitiveServices/accounts', parameters('accountName')), '2025-04-01-preview').endpoint]"
+    },
+    "anthropicEndpoint": {
+      "type": "string",
+      "value": "[format('https://{0}.services.ai.azure.com/anthropic/v1/messages', parameters('accountName'))]"
+    },
+    "deployment": {
+      "type": "string",
+      "value": "[parameters('deploymentName')]"
+    },
+    "resourceName": {
+      "type": "string",
+      "value": "[parameters('accountName')]"
+    }
+  }
+}
