@@ -3,16 +3,16 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "accountName": {
-      "value": "replace-with-foundry-openai-name"
+      "value": "foundry-dotnet-ai-agent"
     },
     "deploymentName": {
-      "value": "gpt-4.1-mini"
+      "value": "gpt-5-mini"
     },
     "modelName": {
-      "value": "gpt-4.1-mini"
+      "value": "gpt-5-mini"
     },
     "modelVersion": {
-      "value": "2025-04-14"
+      "value": "2025-08-07"
     },
     "deploymentSkuName": {
       "value": "GlobalStandard"
