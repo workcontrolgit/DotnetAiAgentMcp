@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "accountName": {
-      "value": "foundry-dotnet-ai-agent"
+      "value": "hr-mcp-ai-foundry"
     },
     "deploymentName": {
       "value": "gpt-5-mini"
@@ -18,7 +18,7 @@
       "value": "GlobalStandard"
     },
     "deploymentCapacity": {
-      "value": 1
+      "value": 10
     }
   }
 }
